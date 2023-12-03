@@ -1,0 +1,24 @@
+@mixin callUsButton {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: $primary-sky-blue;
+  border-radius: 60px;
+  padding: 8px 8px 8px 24px;
+  color: $primary-white;
+  line-height: 13.333%;
+  font: {
+    size: $--primary-logo;
+    weight: 700;
+  }
+}
+
+@mixin whiteBgCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: $primary-white;
+}

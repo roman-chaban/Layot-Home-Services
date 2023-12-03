@@ -1,12 +1,169 @@
-@import 'reset';
-@import 'header';
-@import 'footer';
-@import 'variables';
-@import 'colors';
-@import 'mixins';
-@import 'media';
+@import "reset";
+@import "header";
+@import "footer";
+@import "variables";
+@import "colors";
+@import "mixins";
+@import "media";
 
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+.hero {
+  background: $primary-background;
+  & .hero__container {
+    & .hero__content {
+      padding: 0px 16px 0px 16px;
+      display: grid;
+      grid-template-columns: repeat(1, auto 1fr auto);
+      & .hero__left--item {
+        max-height: 836px;
+        & .hero__left--image {
+          width: 100%;
+          max-width: 412px;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 24px;
+          border-bottom-right-radius: 0;
+        }
+      }
+      & .hero__content--item {
+        display: flex;
+        flex-direction: column;
+        gap: 152px;
+        & .hero__content--block {
+          padding-top: 162px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 24px;
+          & .hero__content--list {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            & .hero__list--item {
+              display: flex;
+              align-items: center;
+              gap: 25px;
+              color: $primary-gray;
+              font: {
+                size: $--primary-secondary;
+                weight: 700;
+              }
+              line-height: 140%;
+              &:not(.not-circle)::after {
+                content: "";
+                position: relative;
+                top: 2px;
+                display: block;
+                width: 8px;
+                height: 8px;
+                background: $primary-gray;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+      & .hero__right--item {
+        max-height: 836px;
+        & .hero__right--image {
+          width: 100%;
+          max-width: 412px;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 24px;
+          border-bottom-left-radius: 0;
+        }
+      }
+    }
+    & .hero__main--title {
+      & .hero__title {
+        max-width: 673px;
+        text-align: center;
+        line-height: 118.75%;
+        color: $primary-white;
+        font: {
+          size: $--primary-title;
+          weight: 800;
+        }
+      }
+    }
+    & .hero__check--items {
+      display: flex;
+      align-items: center;
+      gap: 41px;
+      padding-bottom: 48px;
+      & .check__item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        & .check__title--item {
+          color: $primary-sky-blue;
+          line-height: 160%;
+          font-size: $--primary-secondary;
+        }
+      }
+    }
+  }
+  & .hero__button--item {
+    display: flex;
+    justify-content: center;
+    & .hero__button {
+      @include callUsButton;
+      & .white__bg--circle {
+        @include whiteBgCircle;
+      }
+    }
+  }
+  & .hero__features--items {
+    padding-left: 51px;
+    padding-right: 49px;
+    padding-bottom: 42px;
+    display: flex;
+    justify-content: center;
+    & .features__item {
+      display: flex;
+      gap: 16px;
+      padding-right: 32px;
+      &:not(.not-line):after {
+        content: "";
+        height: 48px;
+        width: 1.5px;
+        background: linear-gradient(
+          rgba(79, 102, 183, 0),
+          rgba(79, 102, 183, 1),
+          rgba(79, 102, 183, 0)
+        );
+        display: block;
+        margin-left: 16px;
+      }
+      & .features__bg--item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        background: $primary-dark-blue-2;
+        border-radius: 50%;
+      }
+      & .features__item--title {
+        max-width: 105px;
+        display: inline-block;
+        color: $primary-white;
+        line-height: 133.333%;
+        font: {
+          size: $--primary-frist;
+          weight: 600;
+        }
+      }
+    }
+  }
+  & .hero__decorations--items {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2px;
+  }
+}

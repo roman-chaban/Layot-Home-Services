@@ -46,9 +46,7 @@
       }
       & .homepro__services--item {
         & .services__description {
-          display: flex;
-          align-items: center;
-          gap: 10px;
+          position: relative;
           line-height: 13.333%;
           color: $primary-white;
           font: {
@@ -57,10 +55,13 @@
           }
           &::before {
             content: "";
+            position: absolute;
+            top: 30%;
+            left: -20px;
             display: block;
             width: 12px;
             height: 12px;
-            border-radius: 50%;
+            border-radius: 100%;
             background: $primary-orange;
           }
         }
