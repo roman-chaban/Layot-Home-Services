@@ -170,13 +170,10 @@ body {
 
 .professional {
   & .main__container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
+    @include wrapperContainer;
   }
   & .professional__content {
-    padding-top: 233px;
-    padding-bottom: 88px;
+    padding-top: 232px;
     display: flex;
     justify-content: space-between;
   }
@@ -255,5 +252,122 @@ body {
   & .professional__intro-image {
     position: relative;
     bottom: 80px;
+  }
+}
+
+.services {
+  & .main__container {
+    @include wrapperContainer;
+  }
+}
+
+.services__content {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  & .services__titles--items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    & .services__title {
+      color: $primary-black;
+      font: {
+        size: $--primary-third;
+        weight: 700;
+      }
+      line-height: 123.077%;
+    }
+    & .serives__subtitle {
+      text-align: center;
+      max-width: 552px;
+      color: $primary-gray-2;
+      font-size: $--primary-frist;
+      line-height: 155.556%;
+    }
+  }
+  & .services__cards--items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    & .services__card {
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      & .services__card--bg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+        background: $primary-background;
+        border-radius: 20px;
+      }
+      & .services__card-info {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        & .card__info--title {
+          font-feature-settings: "liga" off;
+          color: $primary-black;
+          font : {
+            size: $--primary-logo;
+            weight: 700;
+          }
+          line-height: 133.333%;
+        }
+        & .card__info-subtitle {
+          color: $primary-gray-2;
+          font-size: $--primary-frist;
+          line-height: 155.556%;
+        }
+      }
+    }
+  }
+  & .more__services--item {
+    background-color: $primary-sky-blue;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+    padding: 32px;
+    & .more__item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      & .more-title {
+        color: $primary-white;
+        line-height: 133.333%;
+        text-align: center;
+        font-feature-settings: "liga" off;
+        font: {
+          size: $--primary-logo;
+          weight: 700;
+        }
+      }
+      & .more-subtitle {
+        color: $primary-white;
+        text-align: center;
+        font-size: $--primary-frist;
+        line-height: 155.556%;
+      }
+    }
+    & .more {
+      width: 296px;
+      border-radius: 60px;
+      background: $primary-white;
+      padding: 16px 24px;
+      color: $primary-sky-blue;
+      font: {
+        size: $--primary-logo;
+        weight: 700;
+      }
+      line-height: 133.333%;
+    }
   }
 }

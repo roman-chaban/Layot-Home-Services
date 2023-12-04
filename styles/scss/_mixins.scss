@@ -22,3 +22,9 @@
   border-radius: 50%;
   background: $primary-white;
 }
+
+@mixin wrapperContainer {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
