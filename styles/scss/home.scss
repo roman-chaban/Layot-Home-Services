@@ -262,7 +262,7 @@ body {
 }
 
 .services__content {
-  padding: 120px 0;
+  padding: 116.5px 0;
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -368,6 +368,102 @@ body {
         weight: 700;
       }
       line-height: 133.333%;
+    }
+  }
+}
+
+.friendly {
+  margin: 24px 60px;
+  border-radius: 24px;
+  background: $primary-background;
+  & .main__container {
+    @include wrapperContainer;
+  }
+}
+
+.friendly__content--item {
+  display: flex;
+  justify-content: space-between;
+  & .friendly-image {
+    position: relative;
+    top: 117px;
+  }
+  & .friendly-image {
+    right: 1.5px;
+  }
+  & .to-left {
+    left: 1.5px;
+  }
+}
+
+.friendly__content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 64px 0;
+  & .friendly__titles {
+    & .friendly__titles--items {
+      display: flex;
+      align-items: flex-end;
+      gap: 80px;
+      & .friendly__title {
+        color: $primary-white;
+        line-height: 123.077%;
+        font: {
+          size: $--primary-third;
+          weight: 700;
+        }
+      }
+
+      & .friendly__subtitle {
+        max-width: 613px;
+        color: $primary-gray;
+        line-height: 155.556%;
+        font-size: $--primary-frist;
+      }
+    }
+    &::after {
+      content: "";
+      margin-top: 60px;
+      width: 100%;
+      height: 1.5px;
+      display: block;
+      background: linear-gradient(to right, #4f66b700, #4f66b7, #4f66b700);
+    }
+  }
+}
+
+.friendly__cards--items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 128px);
+  gap: 60px 184px;
+  & .friendly__card {
+    display: flex;
+    gap: 32px;
+    & .friendly__card--image {
+      max-width: 100px;
+      max-height: 100px;
+    }
+    & .friendly__card--info {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      & .friendly__card--title {
+        color: $primary-white;
+        line-height: 133.333%;
+        font: {
+          size: $--primary-logo;
+          weight: 700;
+        }
+      }
+
+      & .friendly__card-subtitle {
+        color: $primary-gray;
+        font-feature-settings: "liga" off;
+        font-size: $--primary-frist;
+        line-height: 155.556%;
+      }
     }
   }
 }
