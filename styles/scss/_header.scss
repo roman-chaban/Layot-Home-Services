@@ -2,6 +2,11 @@
 @import "colors";
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
   background: $primary-background;
   & .header__container {
     width: 100%;

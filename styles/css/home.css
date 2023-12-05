@@ -87,6 +87,11 @@ h6 {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
   background: #142257;
 }
 .header .header__container {
@@ -164,7 +169,7 @@ body {
   background: #142257;
 }
 .hero .hero__container .hero__content {
-  padding: 0px 16px 0px 16px;
+  padding: 80px 16px 0px 16px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (auto 1fr auto)[1];
@@ -814,6 +819,94 @@ body {
   font-weight: 700;
 }
 .friendly__cards--items .friendly__card .friendly__card--info .friendly__card-subtitle {
+  color: #9ea3b5;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  font-size: 18px;
+  line-height: 155.556%;
+}
+
+.works {
+  padding-top: 158px;
+  padding-bottom: 156px;
+}
+.works .main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.works__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 88px;
+}
+.works__content .works__hero--image {
+  margin-left: -88px;
+}
+.works__content .works__hero--image .worker-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.works__content .works__information--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+}
+.works__content .works__information--block .works__information--title {
+  max-width: 395px;
+  color: #171921;
+  line-height: 123.077%;
+  font-size: 52px;
+  font-weight: 700;
+}
+.works__content .works__information--block .works__information--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 52px;
+}
+.works__content .works__information--block .works__information--items .work__information--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 36px;
+}
+.works__content .works__information--block .works__information--items .work__information--item .work__information--titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+.works__content .works__information--block .works__information--items .work__information--item .work__information--titles .number__item {
+  color: #9ea3b5;
+  line-height: 123.077%;
+  font-size: 52px;
+  font-weight: 700;
+}
+.works__content .works__information--block .works__information--items .work__information--item .work__information--titles .heading__item {
+  max-width: 164px;
+  color: #171921;
+  line-height: 133.333%;
+  font-size: 24px;
+  font-weight: 700;
+}
+.works__content .works__information--block .works__information--items .work__information--item .work__information--subtitle {
+  max-width: 420px;
   color: #9ea3b5;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;

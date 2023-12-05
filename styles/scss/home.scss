@@ -14,7 +14,7 @@ body {
   background: $primary-background;
   & .hero__container {
     & .hero__content {
-      padding: 0px 16px 0px 16px;
+      padding: 80px 16px 0px 16px;
       display: grid;
       grid-template-columns: repeat(1, auto 1fr auto);
       & .hero__left--item {
@@ -463,6 +463,80 @@ body {
         font-feature-settings: "liga" off;
         font-size: $--primary-frist;
         line-height: 155.556%;
+      }
+    }
+  }
+}
+
+.works {
+  padding-top: 158px;
+  padding-bottom: 156px;
+  & .main__container {
+    @include wrapperContainer;
+  }
+}
+
+.works__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 88px;
+  & .works__hero--image {
+    margin-left: -88px;
+    & .worker-image {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  & .works__information--block {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    & .works__information--title {
+      max-width: 395px;
+      color: $primary-black;
+      line-height: 123.077%;
+      font: {
+        size: $--primary-third;
+        weight: 700;
+      }
+    }
+    & .works__information--items {
+      display: flex;
+      flex-direction: column;
+      gap: 52px;
+      & .work__information--item {
+        display: flex;
+        gap: 36px;
+        & .work__information--titles {
+          display: flex;
+          gap: 24px;
+          & .number__item {
+            color: $primary-gray;
+            line-height: 123.077%;
+            font: {
+              size: $--primary-third;
+              weight: 700;
+            }
+          }
+          & .heading__item {
+            max-width: 164px;
+            color: $primary-black;
+            line-height: 133.333%;
+            font: {
+              size: $--primary-logo;
+              weight: 700;
+            }
+          }
+        }
+        & .work__information--subtitle {
+          max-width: 420px;
+          color: $primary-gray;
+          font-feature-settings: "liga" off;
+          font: {
+            size: $--primary-frist;
+          }
+          line-height: 155.556%;
+        }
       }
     }
   }
