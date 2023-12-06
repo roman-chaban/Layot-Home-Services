@@ -775,3 +775,101 @@ body {
     }
   }
 }
+
+.faq {
+  & .main__container {
+    @include wrapperContainer;
+  }
+}
+
+.faq__content {
+  padding: 190px 0 230px 0;
+  display: flex;
+  gap: 138px;
+  & .faq__information--items {
+    max-width: 469px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    & .faq__title {
+      color: $primary-black;
+      line-height: 123.077%;
+      font: {
+        size: $--primary-third;
+        weight: 700;
+      }
+    }
+    & .faq__information--links {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      & .faq__help--item {
+        font-feature-settings: "liga" off;
+        color: $primary-black;
+        line-height: 160%;
+        font-size: $--primary-secondary;
+      }
+      & .faq__help--link {
+        color: $primary-sky-blue;
+        line-height: 133.333%;
+        text-decoration: underline;
+        font: {
+          size: $--primary-logo;
+          weight: 700;
+        }
+      }
+    }
+  }
+  & .faq__menu--items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    & .faq__menu--item {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 833px;
+      padding: 24px 32px;
+      border-radius: 12px;
+      background: $primary-light-gray;
+      & .faq__menu--title {
+        display: flex;
+        justify-content: space-between;
+        & .menu__card--title {
+          color: $primary-gray-2;
+          line-height: 133.333%;
+          font-feature-settings: "liga" off;
+          font: {
+            size: $--primary-logo;
+            weight: 700;
+          }
+        }
+      }
+      & .faq__menu--subtitle {
+        font-size: $--primary-six;
+        color: $primary-light-green;
+        line-height: 150%;
+        font-feature-settings: "ss01" on;
+      }
+    }
+    & .faq__menu--subitem {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      & .faq__menu--title {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 32px;
+        & .menu__card--title {
+          color: $primary-gray-2;
+          line-height: 133.333%;
+          font-feature-settings: "liga" off;
+          font: {
+            size: $--primary-logo;
+            weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

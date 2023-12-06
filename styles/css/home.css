@@ -1209,3 +1209,131 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
+
+.faq .main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.faq__content {
+  padding: 190px 0 230px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 138px;
+}
+.faq__content .faq__information--items {
+  max-width: 469px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+.faq__content .faq__information--items .faq__title {
+  color: #171921;
+  line-height: 123.077%;
+  font-size: 52px;
+  font-weight: 700;
+}
+.faq__content .faq__information--items .faq__information--links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 11px;
+}
+.faq__content .faq__information--items .faq__information--links .faq__help--item {
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  color: #171921;
+  line-height: 160%;
+  font-size: 20px;
+}
+.faq__content .faq__information--items .faq__information--links .faq__help--link {
+  color: #15b2f5;
+  line-height: 133.333%;
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: 700;
+}
+.faq__content .faq__menu--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+.faq__content .faq__menu--items .faq__menu--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+  width: 833px;
+  padding: 24px 32px;
+  border-radius: 12px;
+  background: #f3f5f9;
+}
+.faq__content .faq__menu--items .faq__menu--item .faq__menu--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.faq__content .faq__menu--items .faq__menu--item .faq__menu--title .menu__card--title {
+  color: #545971;
+  line-height: 133.333%;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  font-size: 24px;
+  font-weight: 700;
+}
+.faq__content .faq__menu--items .faq__menu--item .faq__menu--subtitle {
+  font-size: 16px;
+  color: #737373;
+  line-height: 150%;
+  -webkit-font-feature-settings: "ss01" on;
+          font-feature-settings: "ss01" on;
+}
+.faq__content .faq__menu--items .faq__menu--subitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+.faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px 32px;
+}
+.faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title .menu__card--title {
+  color: #545971;
+  line-height: 133.333%;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  font-size: 24px;
+  font-weight: 700;
+}
