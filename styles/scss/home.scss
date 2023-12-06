@@ -469,14 +469,14 @@ body {
 }
 
 .works {
-  padding-top: 158px;
-  padding-bottom: 156px;
   & .main__container {
     @include wrapperContainer;
   }
 }
 
 .works__content {
+  padding-top: 158px;
+  padding-bottom: 156px;
   display: flex;
   justify-content: space-between;
   gap: 88px;
@@ -537,6 +537,123 @@ body {
           }
           line-height: 155.556%;
         }
+      }
+    }
+  }
+}
+
+.reviews {
+  & .main__container {
+    @include wrapperContainer;
+    max-width: 1920px;
+    padding: 131px 395.392px 132px 394.608px;
+  }
+}
+
+.reviews__content {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+  & .reviews__title--item {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    & .reviews__title {
+      max-width: 650px;
+      color: $primary-black;
+      font: {
+        size: $--primary-third;
+        weight: 700;
+      }
+      line-height: 123.077%;
+    }
+  }
+  & .reviews__block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    & .reviews__block-logo {
+      text-align: center;
+      & .trustpilot__logo {
+        padding: 24px 0;
+      }
+      &::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1.5px;
+        background: linear-gradient(to right, #4f66b700, #cbcfdb, #4f66b700);
+      }
+    }
+    & .reviews__block--subtitle {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 40px;
+      & .reviews__subtitle {
+        max-width: 728px;
+        text-align: center;
+        font-feature-settings: "liga" off;
+        line-height: 160%;
+        color: $primary-gray-2;
+        font-size: $--primary-secondary;
+      }
+      & .menu__arrow--left {
+        width: 48px;
+        height: 48px;
+        padding: 12px;
+        background: $primary-soft-gray;
+        border-radius: 50%;
+      }
+      & .menu__arrow-right {
+        width: 48px;
+        height: 48px;
+        padding: 12px;
+        background: $primary-sky-blue;
+        border-radius: 50%;
+      }
+    }
+    & .reviews__profile--item {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      & .reviews__profile--rating {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        & .profile__title {
+          color: $primary-black;
+          font-feature-settings: "liga" off;
+          line-height: 133.333%;
+          font : {
+            size: $--primary-logo;
+            weight: 700;
+          }
+        }
+      }
+    }
+  }
+  & .reviews__menu--swipers {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    & .blue__swipper {
+      width: 40px;
+      height: 12px;
+      border-radius: 24px;
+      background: $primary-sky-blue;
+    }
+    & .gray__swippers {
+      display: flex;
+      gap: 12px;
+      & .gray-swipper {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        background: $primary-soft-gray;
+        border-radius: 50%;
       }
     }
   }

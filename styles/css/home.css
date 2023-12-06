@@ -826,10 +826,6 @@ body {
   line-height: 155.556%;
 }
 
-.works {
-  padding-top: 158px;
-  padding-bottom: 156px;
-}
 .works .main__container {
   width: 100%;
   max-width: 1440px;
@@ -837,6 +833,8 @@ body {
 }
 
 .works__content {
+  padding-top: 158px;
+  padding-bottom: 156px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -912,4 +910,155 @@ body {
           font-feature-settings: "liga" off;
   font-size: 18px;
   line-height: 155.556%;
+}
+
+.reviews .main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 131px 395.392px 132px 394.608px;
+}
+
+.reviews__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 66px;
+}
+.reviews__content .reviews__title--item {
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.reviews__content .reviews__title--item .reviews__title {
+  max-width: 650px;
+  color: #171921;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 123.077%;
+}
+.reviews__content .reviews__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.reviews__content .reviews__block .reviews__block-logo {
+  text-align: center;
+}
+.reviews__content .reviews__block .reviews__block-logo .trustpilot__logo {
+  padding: 24px 0;
+}
+.reviews__content .reviews__block .reviews__block-logo::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(79, 102, 183, 0)), color-stop(#cbcfdb), to(rgba(79, 102, 183, 0)));
+  background: linear-gradient(to right, rgba(79, 102, 183, 0), #cbcfdb, rgba(79, 102, 183, 0));
+}
+.reviews__content .reviews__block .reviews__block--subtitle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+}
+.reviews__content .reviews__block .reviews__block--subtitle .reviews__subtitle {
+  max-width: 728px;
+  text-align: center;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  line-height: 160%;
+  color: #545971;
+  font-size: 20px;
+}
+.reviews__content .reviews__block .reviews__block--subtitle .menu__arrow--left {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  background: #E3E6F0;
+  border-radius: 50%;
+}
+.reviews__content .reviews__block .reviews__block--subtitle .menu__arrow-right {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  background: #15B2F5;
+  border-radius: 50%;
+}
+.reviews__content .reviews__block .reviews__profile--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 32px;
+}
+.reviews__content .reviews__block .reviews__profile--item .reviews__profile--rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+.reviews__content .reviews__block .reviews__profile--item .reviews__profile--rating .profile__title {
+  color: #171921;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  line-height: 133.333%;
+  font-size: 24px;
+  font-weight: 700;
+}
+.reviews__content .reviews__menu--swipers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 12px;
+}
+.reviews__content .reviews__menu--swipers .blue__swipper {
+  width: 40px;
+  height: 12px;
+  border-radius: 24px;
+  background: #15B2F5;
+}
+.reviews__content .reviews__menu--swipers .gray__swippers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+.reviews__content .reviews__menu--swipers .gray__swippers .gray-swipper {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #E3E6F0;
+  border-radius: 50%;
 }
