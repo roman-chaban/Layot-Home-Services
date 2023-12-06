@@ -658,3 +658,120 @@ body {
     }
   }
 }
+
+.blog {
+  & .main__container {
+    @include wrapperContainer;
+  }
+}
+
+.blog__content {
+  padding: 84px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  & .blog__titles--items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    & .blog__title {
+      color: $primary-black;
+      line-height: 123.077%;
+      text-align: center;
+      font: {
+        size: $--primary-third;
+        weight: 700;
+      }
+    }
+
+    & .blog__subtitle {
+      color: $primary-gray-2;
+      text-align: center;
+      font-feature-settings: "liga" off;
+      line-height: 150%;
+      font-size: $--primary-logo;
+      max-width: 694px;
+    }
+  }
+  & .blog__cards--items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 48px;
+    & .blog__card {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      & .blog__card--image {
+        width: 100%;
+      }
+      & .blog__card--info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        & .card__date {
+          font-size: $--primary-frist;
+          color: $primary-gray-2;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          font-feature-settings: "liga" off;
+          text-overflow: ellipsis;
+          line-height: 155.556%;
+          overflow: hidden;
+        }
+        & .blog__card--title {
+          color: $primary-black;
+          line-height: 125%;
+          font: {
+            size: $--primary-four;
+            weight: 700;
+          }
+        }
+        & .blog__card--subtitle {
+          font-feature-settings: "liga" off;
+          line-height: 155.556%;
+          color: $primary-gray-2;
+          font-size: $--primary-frist;
+          display: -webkit-box;
+          max-width: 450px;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      & .card__menu--buttons {
+        display: flex;
+        gap: 12px;
+        & .menu__button {
+          padding: 8px 16px;
+          border-radius: 999px;
+          background: $primary-light-gray;
+          color: $primary-gray-2;
+          font: {
+            size: $--primary-five;
+            weight: 600;
+          }
+          line-height: 142.857%;
+        }
+      }
+    }
+  }
+  & .view__more--item {
+    display: flex;
+    justify-content: center;
+    & .view {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      background: transparent;
+      line-height: 133.333%;
+      color: $primary-sky-blue;
+      font: {
+        size: $--primary-logo;
+        weight: 700;
+      }
+    }
+  }
+}

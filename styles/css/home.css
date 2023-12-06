@@ -283,7 +283,7 @@ body {
   gap: 8px;
 }
 .hero .hero__container .hero__check--items .check__item .check__title--item {
-  color: #15B2F5;
+  color: #15b2f5;
   line-height: 160%;
   font-size: 20px;
 }
@@ -303,7 +303,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 16px;
-  background: #15B2F5;
+  background: #15b2f5;
   border-radius: 60px;
   padding: 8px 8px 8px 24px;
   color: #fff;
@@ -365,7 +365,7 @@ body {
           align-items: center;
   width: 48px;
   height: 48px;
-  background: #1F3584;
+  background: #1f3584;
   border-radius: 50%;
 }
 .hero .hero__features--items .features__item .features__item--title {
@@ -463,14 +463,14 @@ body {
   gap: 12px;
 }
 .professional .professional__information .professional__information--list .info--list .info__list--items .info__list-title {
-  color: #1F3584;
+  color: #1f3584;
   line-height: 140%;
   font-size: 20px;
   font-weight: 700;
 }
 .professional .professional__information .professional__info--banner .banner__info--item {
   max-width: 450px;
-  background: #15B2F5;
+  background: #15b2f5;
   padding: 12px 32px;
   border-radius: 24px;
 }
@@ -624,7 +624,7 @@ body {
   line-height: 155.556%;
 }
 .services__content .more__services--item {
-  background-color: #15B2F5;
+  background-color: #15b2f5;
   border-radius: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -675,7 +675,7 @@ body {
   border-radius: 60px;
   background: #fff;
   padding: 16px 24px;
-  color: #15B2F5;
+  color: #15b2f5;
   font-size: 24px;
   font-weight: 700;
   line-height: 133.333%;
@@ -997,14 +997,14 @@ body {
   width: 48px;
   height: 48px;
   padding: 12px;
-  background: #E3E6F0;
+  background: #e3e6f0;
   border-radius: 50%;
 }
 .reviews__content .reviews__block .reviews__block--subtitle .menu__arrow-right {
   width: 48px;
   height: 48px;
   padding: 12px;
-  background: #15B2F5;
+  background: #15b2f5;
   border-radius: 50%;
 }
 .reviews__content .reviews__block .reviews__profile--item {
@@ -1047,7 +1047,7 @@ body {
   width: 40px;
   height: 12px;
   border-radius: 24px;
-  background: #15B2F5;
+  background: #15b2f5;
 }
 .reviews__content .reviews__menu--swipers .gray__swippers {
   display: -webkit-box;
@@ -1059,6 +1059,153 @@ body {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background: #E3E6F0;
+  background: #e3e6f0;
   border-radius: 50%;
+}
+
+.blog .main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.blog__content {
+  padding: 84px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 56px;
+}
+.blog__content .blog__titles--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+.blog__content .blog__titles--items .blog__title {
+  color: #171921;
+  line-height: 123.077%;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+}
+.blog__content .blog__titles--items .blog__subtitle {
+  color: #545971;
+  text-align: center;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  line-height: 150%;
+  font-size: 24px;
+  max-width: 694px;
+}
+.blog__content .blog__cards--items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 48px 1fr 48px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 48px;
+     -moz-column-gap: 48px;
+          column-gap: 48px;
+}
+.blog__content .blog__cards--items .blog__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+.blog__content .blog__cards--items .blog__card .blog__card--image {
+  width: 100%;
+}
+.blog__content .blog__cards--items .blog__card .blog__card--info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+.blog__content .blog__cards--items .blog__card .blog__card--info .card__date {
+  font-size: 18px;
+  color: #545971;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  text-overflow: ellipsis;
+  line-height: 155.556%;
+  overflow: hidden;
+}
+.blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
+  color: #171921;
+  line-height: 125%;
+  font-size: 32px;
+  font-weight: 700;
+}
+.blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--subtitle {
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  line-height: 155.556%;
+  color: #545971;
+  font-size: 18px;
+  display: -webkit-box;
+  max-width: 450px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog__content .blog__cards--items .blog__card .card__menu--buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+.blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: #f3f5f9;
+  color: #545971;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 142.857%;
+}
+.blog__content .view__more--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blog__content .view__more--item .view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+  line-height: 133.333%;
+  color: #15b2f5;
+  font-size: 24px;
+  font-weight: 700;
 }
