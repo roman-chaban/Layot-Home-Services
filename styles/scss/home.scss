@@ -246,6 +246,9 @@ body {
   & .professional__intro-image {
     position: relative;
     bottom: 80px;
+    & .professional__image {
+      width: 100%;
+    }
   }
 }
 
@@ -880,9 +883,9 @@ body {
   background: $primary-background;
   & .main__container {
     @include wrapperContainer;
-    max-width: 600px;
+    max-width: 700px;
     position: relative;
-    left: 80px;
+    left: 110px;
   }
   & .banner__hero--image {
     & .banner__image {
