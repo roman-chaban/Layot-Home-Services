@@ -122,3 +122,258 @@
     top: 9px;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  .professional .professional__intro-image .professional__image {
+    max-width: 80%;
+  }
+  .professional .professional__intro-image {
+    bottom: 20px;
+  }
+  .professional
+    .professional__information
+    .professional__titles--item
+    .professional__title {
+    font-size: $--media-first;
+    line-height: 115%;
+  }
+  .professional
+    .professional__information
+    .professional__titles--item
+    .professional__subtitle {
+    font-size: $--primary-six;
+  }
+  .professional
+    .professional__information
+    .professional__information--list
+    .info--list
+    .info__list--items
+    .info__list-title {
+    font-size: $--primary-frist;
+  }
+  .professional
+    .professional__information
+    .professional__info--banner
+    .banner__info--item
+    .banner--info {
+    font-size: $--primary-six;
+  }
+  .professional
+    .professional__information
+    .professional__info--banner
+    .banner__info--item
+    .banner--info-bold {
+    font-size: $--primary-frist;
+  }
+  .professional .professional__information {
+    gap: 45px;
+  }
+  .professional .professional__content {
+    padding-top: 115px;
+  }
+  .professional .professional__intro-image {
+    text-align: end;
+  }
+  .professional
+    .professional__information
+    .professional__information--list
+    .info--list {
+    gap: 25px;
+  }
+  .services__content .services__titles--items .services__title {
+    font-size: $--media-first;
+  }
+  .services__content .services__cards--items .services__card {
+    padding: 15px;
+  }
+  .services__content
+    .services__cards--items
+    .services__card
+    .services__card-info
+    .card__info--title {
+    font-size: $--primary-secondary;
+  }
+  .services__content .more__services--item {
+    padding: 24px;
+  }
+  .services__content
+    .services__cards--items
+    .services__card
+    .services__card-info
+    .card__info-subtitle {
+    font-size: $--primary-six;
+  }
+  .services__content
+    .services__cards--items
+    .services__card
+    .services__card-info {
+    gap: 15px;
+  }
+  .friendly__content .friendly__titles .friendly__titles--items {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .friendly__content
+    .friendly__titles
+    .friendly__titles--items
+    .friendly__subtitle {
+    max-width: 713px;
+    text-align-last: center;
+  }
+  .friendly__cards--items .friendly__card .friendly__card--image {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .friendly__cards--items
+    .friendly__card
+    .friendly__card--info
+    .friendly__card--title {
+    font-size: $--media-secondary;
+  }
+  .friendly__cards--items
+    .friendly__card
+    .friendly__card--info
+    .friendly__card-subtitle {
+    font-size: $--primary-six;
+  }
+  .friendly__cards--items {
+    gap: 35px 80px;
+  }
+  .friendly__content--item .friendly-image {
+    max-height: 65%;
+  }
+  .friendly__right--item {
+    position: relative;
+    left: 10px;
+  }
+  .friendly__content {
+    padding: 32px 0;
+    padding-top: 45px;
+    gap: 30px;
+  }
+  .works__content .works__information--block .works__information--title {
+    font-size: $--media-first;
+  }
+  .works__content
+    .works__information--block
+    .works__information--items
+    .work__information--item
+    .work__information--titles
+    .heading__item {
+    font-size: $--primary-secondary;
+    max-width: 195px;
+  }
+  .works__content
+    .works__information--block
+    .works__information--items
+    .work__information--item
+    .work__information--titles
+    .number__item {
+    font-size: $--media-first;
+  }
+  .works__content
+    .works__information--block
+    .works__information--items
+    .work__information--item
+    .work__information--subtitle {
+    font-size: $--primary-six;
+    max-width: 295px;
+  }
+  .works__content
+    .works__information--block
+    .works__information--items
+    .work__information--item {
+    gap: 60px;
+  }
+  .works__content .works__information--block .works__information--items {
+    gap: 26px;
+  }
+  .works__content {
+    padding-bottom: 70px;
+  }
+  .reviews__content .reviews__title--item .reviews__title {
+    font-size: $--media-first;
+  }
+  .reviews__content .reviews__block .reviews__block--subtitle {
+    justify-content: space-around;
+  }
+  .blog__content .blog__titles--items .blog__title {
+    font-size: $--media-first;
+  }
+  .blog__content .blog__titles--items .blog__subtitle {
+    font-size: $--media-secondary;
+  }
+  .blog__content
+    .blog__cards--items
+    .blog__card
+    .blog__card--info
+    .blog__card--title {
+    font-size: $--media-third;
+  }
+  .faq__content .faq__information--items .faq__title {
+    font-size: $--media-first;
+  }
+  .faq__content .faq__menu--items .faq__menu--item {
+    width: 100%;
+    max-width: 833px;
+  }
+  .faq__content {
+    gap: 90px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  .faq__content
+    .faq__information--items
+    .faq__information--links
+    .faq__help--link {
+    font-size: $--media-secondary;
+  }
+  .faq__content
+    .faq__menu--items
+    .faq__menu--item
+    .faq__menu--title
+    .menu__card--title,
+  .faq__content
+    .faq__menu--items
+    .faq__menu--subitem
+    .faq__menu--title
+    .menu__card--title {
+    font-size: $--media-secondary;
+  }
+  .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title {
+    align-items: flex-start;
+  }
+  .banner__content .banner__content--block .banner__block--info .banner__title {
+    font-size: $--media-first;
+    max-width: 545px;
+    gap: 32px;
+  }
+  .banner .banner__hero--image .banner__image {
+    height: 100%;
+  }
+  .footer .footer__container {
+    max-width: 1100px;
+  }
+  .faq .main__container {
+    max-width: 1100px;
+  }
+  .blog .main__container {
+    max-width: 1100px;
+  }
+  .works .main__container {
+    max-width: 1100px;
+  }
+  .services .main__container {
+    max-width: 1100px;
+  }
+  .professional .main__container {
+    max-width: 1100px;
+  }
+  .hero .hero__container .hero__content .hero__content--item {
+    padding: 0 70px;
+  }
+  .banner {
+    min-height: 460px;
+  }
+}
