@@ -80,14 +80,7 @@ body {
     }
     & .hero__main--title {
       & .hero__title {
-        max-width: 673px;
-        text-align: center;
-        line-height: 118.75%;
-        color: $primary-white;
-        font: {
-          size: $--primary-title;
-          weight: 800;
-        }
+        @include mainPageTitle;
       }
     }
     & .hero__check--items {
@@ -844,10 +837,14 @@ body {
             weight: 700;
           }
         }
+        & > button {
+          background: transparent;
+        }
       }
       & .faq__menu--subtitle {
         font-size: $--primary-six;
         color: $primary-light-green;
+        font-family: "Be Vietnam Pro" !important;
         line-height: 150%;
         font-feature-settings: "ss01" on;
       }
@@ -868,6 +865,62 @@ body {
             size: $--primary-logo;
             weight: 700;
           }
+        }
+        & > button {
+          background: transparent;
+        }
+      }
+    }
+  }
+}
+
+.banner {
+  display: flex;
+  background: $primary-background;
+  & .main__container {
+    @include wrapperContainer;
+    max-width: 600px;
+  }
+}
+
+.banner__content {
+  & .banner__content--block {
+    & .banner__decoration--item {
+      & .decoration__item {
+        margin-top: -2px;
+      }
+    }
+    & .banner__block--info {
+      padding-top: 132px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      & .banner__title {
+        @include mainPageTitle;
+        text-align: left;
+      }
+      & .hero__check--items {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+        padding-bottom: 12px;
+        & .check__item {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          & .check__title--item {
+            color: $primary-sky-blue;
+            line-height: 160%;
+            font-size: $--primary-secondary;
+          }
+        }
+      }
+      & .hero__button--item {
+        & .hero__button {
+          @include callUsButton;
+        }
+        & .white__bg--circle {
+          @include whiteBgCircle;
         }
       }
     }

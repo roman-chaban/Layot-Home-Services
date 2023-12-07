@@ -1303,9 +1303,13 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
+.faq__content .faq__menu--items .faq__menu--item .faq__menu--title > button {
+  background: transparent;
+}
 .faq__content .faq__menu--items .faq__menu--item .faq__menu--subtitle {
   font-size: 16px;
   color: #737373;
+  font-family: "Be Vietnam Pro" !important;
   line-height: 150%;
   -webkit-font-feature-settings: "ss01" on;
           font-feature-settings: "ss01" on;
@@ -1336,4 +1340,99 @@ body {
           font-feature-settings: "liga" off;
   font-size: 24px;
   font-weight: 700;
+}
+.faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title > button {
+  background: transparent;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #142257;
+}
+.banner .main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.banner__content .banner__content--block .banner__decoration--item .decoration__item {
+  margin-top: -2px;
+}
+.banner__content .banner__content--block .banner__block--info {
+  padding-top: 132px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+.banner__content .banner__content--block .banner__block--info .banner__title {
+  max-width: 673px;
+  text-align: center;
+  line-height: 118.75%;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: left;
+}
+.banner__content .banner__content--block .banner__block--info .hero__check--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 41px;
+  padding-bottom: 12px;
+}
+.banner__content .banner__content--block .banner__block--info .hero__check--items .check__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+.banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
+  color: #15b2f5;
+  line-height: 160%;
+  font-size: 20px;
+}
+.banner__content .banner__content--block .banner__block--info .hero__button--item .hero__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  background: #15b2f5;
+  border-radius: 60px;
+  padding: 8px 8px 8px 24px;
+  color: #fff;
+  line-height: 13.333%;
+  font-size: 24px;
+  font-weight: 700;
+}
+.banner__content .banner__content--block .banner__block--info .hero__button--item .white__bg--circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #fff;
 }

@@ -28,3 +28,15 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+
+@mixin mainPageTitle {
+  max-width: 673px;
+  text-align: center;
+  line-height: 118.75%;
+  color: $primary-white;
+  font: {
+    size: $--primary-title;
+    weight: 800;
+  }
+}
+
