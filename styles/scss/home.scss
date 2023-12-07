@@ -5,6 +5,7 @@
 @import "colors";
 @import "mixins";
 @import "media";
+@import "animations";
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -880,6 +881,13 @@ body {
   & .main__container {
     @include wrapperContainer;
     max-width: 600px;
+    position: relative;
+    left: 80px;
+  }
+  & .banner__hero--image {
+    & .banner__image {
+      width: 100%;
+    }
   }
 }
 
