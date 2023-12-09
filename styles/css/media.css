@@ -1,4 +1,13 @@
-@media screen and (max-width: 1550px) {
+@media screen and (width <= 1550px) {
+  .professional,
+  .services,
+  .blog,
+  .faq,
+  .footer,
+  .works,
+  .reviews {
+    padding: 0 50px;
+  }
   .hero .hero__container .hero__content .hero__content--item .hero__content--block {
     padding-top: 100px;
   }
@@ -85,24 +94,6 @@
   .banner__content .banner__content--block .banner__block--info {
     padding-top: 65px;
   }
-  .footer .footer__container {
-    max-width: 1200px;
-  }
-  .faq .main__container {
-    max-width: 1200px;
-  }
-  .blog .main__container {
-    max-width: 1200px;
-  }
-  .works .main__container {
-    max-width: 1200px;
-  }
-  .services .main__container {
-    max-width: 1200px;
-  }
-  .professional .main__container {
-    max-width: 1200px;
-  }
   .banner .main__container {
     left: 130px;
   }
@@ -113,7 +104,7 @@
     top: 9px;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (width <= 1440px) {
   .professional .professional__intro-image .professional__image {
     max-width: 80%;
   }
@@ -126,9 +117,6 @@
   }
   .professional .professional__information .professional__titles--item .professional__subtitle {
     font-size: 16px;
-  }
-  .professional .professional__information .professional__information--list .info--list .info__list--items .info__list-title {
-    font-size: 18px;
   }
   .professional .professional__information .professional__info--banner .banner__info--item .banner--info {
     font-size: 16px;
@@ -154,14 +142,8 @@
   .services__content .services__cards--items .services__card {
     padding: 15px;
   }
-  .services__content .services__cards--items .services__card .services__card-info .card__info--title {
-    font-size: 20px;
-  }
   .services__content .more__services--item {
     padding: 24px;
-  }
-  .services__content .services__cards--items .services__card .services__card-info .card__info-subtitle {
-    font-size: 16px;
   }
   .services__content .services__cards--items .services__card .services__card-info {
     gap: 15px;
@@ -277,28 +259,426 @@
   .banner .banner__hero--image .banner__image {
     height: 100%;
   }
-  .footer .footer__container {
-    max-width: 1100px;
-  }
-  .faq .main__container {
-    max-width: 1100px;
-  }
-  .blog .main__container {
-    max-width: 1100px;
-  }
-  .works .main__container {
-    max-width: 1100px;
-  }
-  .services .main__container {
-    max-width: 1100px;
-  }
-  .professional .main__container {
-    max-width: 1100px;
-  }
   .hero .hero__container .hero__content .hero__content--item {
     padding: 0 70px;
   }
   .banner {
     min-height: 460px;
+  }
+}
+@media screen and (width <= 1250px) {
+  .left__decoration,
+  .right__decoration {
+    max-width: 350px;
+  }
+  .hero .hero__decorations--items {
+    top: 22px;
+  }
+  .header .header__container {
+    padding: 24px 65px;
+  }
+  .professional .professional__information {
+    gap: 35px;
+  }
+  .professional .professional__information .professional__information--list .info--list .info__list--items .info__list-title {
+    font-size: 16px;
+  }
+  .professional .professional__information .professional__information--list .info--list {
+    gap: 20px;
+  }
+  .services__content .services__cards--items {
+    -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 50px;
+       -moz-column-gap: 50px;
+            column-gap: 50px;
+    row-gap: 40px;
+  }
+  .services__content .services__cards--items .services__card {
+    padding: 0;
+  }
+  .friendly__content--item .friendly-image {
+    display: none;
+  }
+  .friendly__cards--items {
+    -ms-grid-columns: (450px)[2];
+    grid-template-columns: repeat(2, 450px);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .reviews .main__container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .reviews__content .reviews__block {
+    gap: 45px;
+  }
+  .reviews__content .reviews__block .reviews__block--subtitle {
+    padding-top: 0;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
+    font-size: 25px;
+  }
+  .blog__content .blog__cards--items {
+    gap: 27px;
+  }
+  .faq__content .faq__menu--items .faq__menu--item .faq__menu--title .menu__card--title,
+  .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title .menu__card--title {
+    font-size: 20px;
+  }
+  .banner .main__container {
+    left: 70px;
+  }
+  .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
+    font-size: 12px;
+  }
+  .blog__content .blog__titles--items {
+    gap: 32px;
+  }
+  .services__content .services__cards--items .services__card {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services__content .services__cards--items .services__card .services__card-info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services__content .services__cards--items .services__card .services__card-info .card__info-subtitle {
+    text-align: center;
+    -moz-text-align-last: center;
+         text-align-last: center;
+  }
+  .hero .hero__container .hero__content .hero__content--item {
+    padding: 0 30px;
+  }
+  .hero .hero__container .hero__main--title .hero__title {
+    padding-top: 15px;
+    font-size: 58px;
+  }
+  .hero {
+    max-height: 937px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items {
+    padding-left: 35px;
+  }
+  .header .header__container .header__nav .nav .nav__menu .nav__menu--item .nav__menu--link,
+  .header .header__container .header__nav .homepro__services--item .services__description {
+    font-size: 16px;
+  }
+  .header .header__container .header__nav .homepro__services--item .services__description::before {
+    max-width: 10px;
+    max-height: 10px;
+  }
+  .header .header__container .header__nav .header__logo .homepro__title--link .homepro__title {
+    font-size: 20px;
+  }
+  .header .header__container .header__nav .nav .nav__menu .nav__menu--item .nav__menu--link,
+  .header .header__container .header__nav .homepro__services--item .services__description {
+    font-size: 14px;
+  }
+  .header .header__container {
+    padding: 15px 65px;
+  }
+  .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item {
+    font-size: 18px;
+  }
+  .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item:not(.not-circle)::after {
+    max-width: 6px;
+    max-height: 6px;
+  }
+  .hero .hero__container .hero__check--items .check__item .check__title--item {
+    font-size: 18px;
+  }
+  .hero {
+    max-height: 808px;
+  }
+  .hero .hero__container .hero__main--title .hero__title {
+    font-size: 48px;
+    max-width: 600px;
+    line-height: 110%;
+  }
+  .hero .hero__button--item .hero__button {
+    font-size: 22px;
+  }
+  .hero .hero__button--item .hero__button .white__bg--circle {
+    max-width: 38px;
+    max-height: 38px;
+  }
+  .phone__icon {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  .hero .hero__container .hero__content .hero__content--item .hero__content--block {
+    padding-top: 50px;
+  }
+  .hero .hero__container .hero__content {
+    padding-top: 65px;
+  }
+  .professional .professional__information .professional__titles--item .professional__title {
+    font-size: 38px;
+    line-height: 100%;
+  }
+  .professional .professional__information .professional__titles--item {
+    gap: 18px;
+  }
+  .professional .professional__information .professional__titles--item .professional__subtitle {
+    line-height: 130%;
+  }
+  .professional .professional__information .professional__information--list .info--list .info__list--items .info__list-title {
+    font-size: 14px;
+  }
+  .professional .professional__information .professional__information--list .info--list {
+    gap: 15px;
+  }
+  .professional .professional__intro-image .professional__image {
+    max-width: 75%;
+  }
+  .professional .professional__information .professional__info--banner .banner__info--item .banner--info {
+    line-height: 116%;
+  }
+  .professional .professional__information .professional__info--banner .banner__info--item {
+    max-width: 400px;
+  }
+  .services__content .services__titles--items .services__title {
+    font-size: 38px;
+  }
+  .services__content .services__titles--items .serives__subtitle {
+    font-size: 16px;
+    line-height: 135%;
+  }
+  .services__content .services__cards--items .services__card .services__card-info .card__info--title {
+    font-size: 20px;
+  }
+  .services__content .services__cards--items .services__card .services__card-info .card__info-subtitle {
+    font-size: 16px;
+    max-width: 250px;
+  }
+  .services__content .services__cards--items {
+    gap: 20px 40px;
+  }
+  .services__content .more__services--item {
+    padding: 14px 16px;
+    padding-top: 20px;
+  }
+  .services__content .more__services--item .more {
+    max-width: 250px;
+  }
+  .friendly__content .friendly__titles .friendly__titles--items .friendly__title {
+    font-size: 38px;
+  }
+  .friendly__content .friendly__titles .friendly__titles--items {
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+  .friendly__content .friendly__titles .friendly__titles--items .friendly__subtitle {
+    font-size: 16px;
+    max-width: 630px;
+  }
+  .friendly__content .friendly__titles::after {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .friendly__cards--items {
+    -ms-grid-columns: (400px)[2];
+    grid-template-columns: repeat(2, 400px);
+  }
+  .friendly__cards--items .friendly__card .friendly__card--info .friendly__card--title {
+    font-size: 20px;
+  }
+  .friendly__cards--items .friendly__card .friendly__card--info .friendly__card-subtitle {
+    font-size: 14px;
+  }
+  .works__content .works__information--block .works__information--title {
+    font-size: 38px;
+  }
+  .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .heading__item {
+    font-size: 18px;
+  }
+  .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .number__item {
+    font-size: 40px;
+  }
+  .works__content .works__information--block .works__information--items .work__information--item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 25px;
+  }
+  .works__content .works__information--block .works__information--items .work__information--item .work__information--titles {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .works__content .works__hero--image .worker-image {
+    max-width: 75%;
+  }
+  .works__content .works__hero--image {
+    margin-left: -140px;
+  }
+  .reviews .main__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .reviews__content .reviews__title--item .reviews__title {
+    font-size: 38px;
+  }
+  .reviews__content .reviews__block .reviews__block--subtitle .reviews__subtitle {
+    font-size: 18px;
+    max-width: 650px;
+  }
+  .reviews__content .reviews__block .reviews__block--subtitle {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .profile__image {
+    max-width: 56px;
+    max-height: 56px;
+  }
+  .reviews__content .reviews__block .reviews__profile--item .reviews__profile--rating .profile__title {
+    font-size: 20px;
+  }
+  .gold__star--icon,
+  .white__star--icon {
+    max-width: 24px;
+    max-height: 24px;
+  }
+  .blog__content .blog__titles--items .blog__title {
+    font-size: 38px;
+  }
+  .blog__content .blog__titles--items .blog__subtitle {
+    font-size: 18px;
+    max-width: 470px;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
+    font-size: 22px;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--subtitle {
+    font-size: 16px;
+  }
+  .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
+    font-size: 12px;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--image {
+    max-width: 90%;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--info .card__date {
+    font-size: 16px;
+  }
+  .blog__content .view__more--item .view {
+    font-size: 22px;
+  }
+  .faq__content .faq__information--items .faq__title {
+    font-size: 38px;
+  }
+  .faq__content .faq__menu--items .faq__menu--item .faq__menu--title .menu__card--title,
+  .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title .menu__card--title {
+    font-size: 18px;
+  }
+  .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title {
+    padding: 18px 32px;
+  }
+  .faq__content .faq__menu--items .faq__menu--item .faq__menu--subtitle {
+    font-size: 14px;
+  }
+  .banner__content .banner__content--block .banner__block--info .banner__title {
+    font-size: 38px;
+  }
+  .banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
+    font-size: 18px;
+  }
+  .banner {
+    min-height: 380px;
+  }
+  .banner__content .banner__content--block .banner__decoration--item .decoration__item {
+    max-width: 420px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__title {
+    font-size: 20px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__subtitle {
+    font-size: 16px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__form {
+    max-width: 435px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items {
+    padding-right: 35px;
+    gap: 5px;
+  }
+  .footer__content .footer__navigation .footer__nav .company__menu .company__menu--title,
+  .footer__content .footer__navigation .footer__nav .legal__menu .legal__menu--title {
+    font-size: 20px;
+  }
+  .footer__content .footer__navigation .footer__nav .company__menu .company__menu--item .company__menu--link,
+  .footer__content .footer__navigation .footer__nav .legal__menu .legal__menu--item .legal__menu--link {
+    font-size: 18px;
+  }
+  .footer__content .footer__navigation .footer__nav .company__menu,
+  .footer__content .footer__navigation .footer__nav .legal__menu {
+    gap: 8px;
+  }
+  .footer__content .footer__navigation .footer__bottom--block .footer__logo .footer__bottom--title {
+    font-size: 24px;
+  }
+  .hero .hero__container .hero__content .hero__content--item {
+    padding: 0;
+  }
+  .hero .hero__features--items {
+    -ms-grid-columns: (200px)[2];
+    grid-template-columns: repeat(2, 200px);
+  }
+  .hero .hero__features--items::after {
+    left: 50px;
+  }
+  .hero .hero__container .hero__content .hero__content--item {
+    gap: 50px;
+  }
+}
+@media screen and (width <= 1145px) {
+  .hero {
+    max-height: 793px;
+    min-height: 100vh;
+  }
+  .hero .hero__decorations--items {
+    top: 53px;
+  }
+  .blog__content .blog__cards--items {
+    -ms-grid-columns: (300px)[3];
+    grid-template-columns: repeat(3, 300px);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
+    font-size: 10px;
+  }
+  .blog__content .blog__cards--items .blog__card .card__menu--buttons {
+    gap: 8px;
+  }
+  .faq__content .faq__information--items .faq__information--links .faq__help--item {
+    font-size: 18px;
+  }
+  .faq__content .faq__information--items .faq__information--links .faq__help--link {
+    font-size: 20px;
+  }
+  .arrow__right,
+  .arrow__left {
+    max-width: 18px;
+    max-height: 18px;
+  }
+  .reviews__content .reviews__block .reviews__block--subtitle .menu__arrow-right,
+  .reviews__content .reviews__block .reviews__block--subtitle .menu__arrow--left {
+    padding: 10px;
+    max-width: 40px;
+    max-height: 40px;
+  }
+  .footer__content .footer__navigation .footer__bottom--block .footer__bottom--subtitle {
+    font-size: 16px;
+    max-width: 335px;
+    line-height: 135%;
   }
 }
