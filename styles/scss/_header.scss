@@ -50,6 +50,9 @@
         }
       }
       & .homepro__services--item {
+        display: flex;
+        gap: 20px;
+        align-items: center;
         & .services__description {
           position: relative;
           line-height: 13.333%;
@@ -61,7 +64,7 @@
           &::before {
             content: "";
             position: absolute;
-            top: 30%;
+            top: -3px;
             left: -20px;
             display: block;
             width: 12px;
@@ -72,5 +75,24 @@
         }
       }
     }
+  }
+}
+
+.header__burger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  & .burger__menu--item {
+    display: block;
+    width: 30px;
+    height: 3.5px;
+    background: $primary-white;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (width > 1024px) {
+  .header__burger {
+    display: none;
   }
 }
