@@ -1,3 +1,37 @@
 @import "colors";
 @import "variables";
 
+.hero .hero__button--item .hero__button {
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+  &:hover {
+    background-color: $primary-dark-blue-2;
+    transform: scale(0.9);
+  }
+}
+
+.professional .professional__intro-image .professional__image {
+  cursor: pointer;
+  transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+
+.services__content .more__services--item .more {
+  transition: all 0.3s ease-in 0s;
+  &:hover {
+    background: $primary-background;
+    color: $primary-white;
+    text-decoration: underline;
+  }
+}
+
+.social__icon {
+  padding: 5px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  border-radius: 10px;
+  &:hover {
+    background: rgba(255,255,255,0.1);
+    transform: scale(1.25);
+  }
+}
