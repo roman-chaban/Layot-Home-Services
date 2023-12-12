@@ -1811,6 +1811,216 @@ h6 {
   .hero .hero__features--items::after {
     left: 32px;
   }
+  .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list {
+    gap: 7px;
+  }
+  .blog__content {
+    padding: 48px 0px;
+    gap: 32px;
+  }
+  .blog__content .blog__titles--items .blog__title {
+    font-size: 32px;
+  }
+  .blog__content .blog__titles--items {
+    gap: 16px;
+    max-width: 327px;
+  }
+  .blog__content .blog__titles--items .blog__subtitle {
+    max-width: 324px;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--image {
+    max-width: 100%;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--info .card__date {
+    text-align: left;
+    font-size: 18px;
+  }
+  .blog__content .blog__cards--items .blog__card {
+    gap: 16px;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
+    font-size: 20px;
+    max-width: 327px;
+    text-align: left;
+  }
+  .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--subtitle {
+    font-size: 18px;
+  }
+  .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  #not__item--mobile {
+    display: none;
+  }
+  .faq__content {
+    padding: 32px 0px;
+    gap: 32px;
+  }
+  .faq__content .faq__information--items .faq__title {
+    font-size: 24px;
+  }
+  .faq__content .faq__information--items {
+    gap: 16px;
+  }
+  .faq__content .faq__information--items .faq__information--links .faq__help--link {
+    font-size: 18px;
+  }
+  .faq__content .faq__menu--items {
+    gap: 12px;
+  }
+  .faq__content .faq__menu--items .faq__menu--item .faq__menu--title .menu__card--title,
+  .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title .menu__card--title {
+    color: #3A3A3A;
+  }
+  .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title {
+    gap: 12px;
+  }
+  .banner__content .banner__content--block .banner__block--info .banner__title {
+    font-size: 24px;
+    max-width: 269px;
+  }
+  .banner__content .banner__content--block .banner__block--info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
+    font-size: 14px;
+  }
+  .banner__content .banner__content--block .banner__block--info .hero__check--items {
+    gap: 24px;
+  }
+  .banner .main__container {
+    max-width: 327px;
+  }
+  .banner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__content {
+    padding-top: 36px;
+  }
+  .footer__content .footer__navigation {
+    padding: 30px 0px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__form {
+    max-width: 265px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__form .newsletter__email--item {
+    max-width: 105px;
+  }
+  .footer__copyright .footer__copy {
+    font-size: 18px;
+  }
+  .footer {
+    padding: 0px;
+  }
+  .footer__content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .footer__content .footer__newsletter--block {
+    padding: 20px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items {
+    gap: 12px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items {
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__title {
+    text-align: left;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__subtitle {
+    -moz-text-align-last: left;
+         text-align-last: left;
+    text-align: left;
+    font-size: 18px;
+  }
+  .footer__content .footer__newsletter--block {
+    gap: 24px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__form .subscribe {
+    padding: 8px 16px;
+  }
+  .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item {
+    gap: 15px;
+  }
+  .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item:not(.not-circle)::after {
+    max-width: 4px;
+    max-height: 4px;
+  }
+}
+@media screen and (width <= 351px) {
+  .hero .hero__features--items {
+    -ms-grid-columns: (100px)[2];
+    grid-template-columns: repeat(2, 100px);
+  }
+  .hero .hero__features--items::after {
+    left: 8px;
+    max-width: 255px;
+  }
+  .banner .main__container {
+    max-width: 290px;
+  }
+  .hero .hero__container .hero__check--items {
+    gap: 15px;
+  }
+  .services__content .more__services--item {
+    max-width: 300px;
+  }
+  .works__content .works__hero--image .worker-image {
+    max-width: 65%;
+  }
+  .footer__content .footer__newsletter--block .newsletter__form {
+    max-width: 240px;
+  }
+  .hero .hero__container .hero__main--title .hero__title {
+    font-size: 28px;
+  }
+  .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item {
+    font-size: 12px;
+  }
+  .hero .hero__container .hero__check--items .check__item .check__title--item {
+    font-size: 12px;
+  }
+  .services__content .services__cards--items .services__card .services__card-info .card__info-subtitle {
+    max-width: 265px;
+  }
+  .footer__copyright .footer__copy {
+    font-size: 16px;
+  }
+  .footer__content .footer__navigation .footer__nav {
+    gap: 80px;
+  }
+  .banner__content .banner__content--block .banner__block--info {
+    position: relative;
+    left: -15px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__title {
+    font-size: 23px;
+  }
+  .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__subtitle {
+    font-size: 16px;
+  }
+  .banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
+    font-size: 12px;
+  }
+  .banner__content .banner__content--block .banner__decoration--item .decoration__item {
+    max-width: 250px;
+  }
+  .services__content .more__services--item {
+    max-width: 270px;
+  }
+  .services__content .more__services--item .more {
+    max-width: 230px;
+  }
 }
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
