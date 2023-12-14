@@ -124,7 +124,7 @@ h6 {
 }
 .header .header__container .header__nav .header__logo .homepro__title--link .homepro__title {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 .header .header__container .header__nav .nav .nav__menu {
@@ -139,7 +139,7 @@ h6 {
 .header .header__container .header__nav .nav .nav__menu .nav__menu--item .nav__menu--link {
   color: #fff;
   line-height: 133.333%;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 .header .header__container .header__nav .homepro__services--item {
@@ -155,7 +155,7 @@ h6 {
   position: relative;
   line-height: 13.333%;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 .header .header__container .header__nav .homepro__services--item .services__description::before {
@@ -233,7 +233,7 @@ h6 {
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
   color: #fff;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 133.333%;
 }
@@ -242,7 +242,7 @@ h6 {
           font-feature-settings: "liga" off;
   color: #fff;
   line-height: 155.556%;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .footer__content .footer__newsletter--block .newsletter__form {
   width: 516px;
@@ -269,32 +269,32 @@ h6 {
   color: #9ea3b5;
 }
 .footer__content .footer__newsletter--block .newsletter__form .newsletter__email--item::-webkit-input-placeholder {
-  font-size: 18px;
+  font-size: 1.125rem;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
   color: #9ea3b5;
   line-height: 155.556%;
 }
 .footer__content .footer__newsletter--block .newsletter__form .newsletter__email--item::-moz-placeholder {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-feature-settings: "liga" off;
   color: #9ea3b5;
   line-height: 155.556%;
 }
 .footer__content .footer__newsletter--block .newsletter__form .newsletter__email--item:-ms-input-placeholder {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-feature-settings: "liga" off;
   color: #9ea3b5;
   line-height: 155.556%;
 }
 .footer__content .footer__newsletter--block .newsletter__form .newsletter__email--item::-ms-input-placeholder {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-feature-settings: "liga" off;
   color: #9ea3b5;
   line-height: 155.556%;
 }
 .footer__content .footer__newsletter--block .newsletter__form .newsletter__email--item::placeholder {
-  font-size: 18px;
+  font-size: 1.125rem;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
   color: #9ea3b5;
@@ -307,7 +307,7 @@ h6 {
   text-align: center;
   line-height: 133.333%;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 .footer__content .footer__navigation {
@@ -341,7 +341,7 @@ h6 {
 }
 .footer__content .footer__navigation .footer__bottom--block .footer__logo .footer__bottom--title {
   color: #fff;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
 }
 .footer__content .footer__navigation .footer__bottom--block .footer__bottom--subtitle {
@@ -349,7 +349,7 @@ h6 {
           font-feature-settings: "liga" off;
   color: #fff;
   line-height: 155.556%;
-  font-size: 18px;
+  font-size: 1.125rem;
   max-width: 460px;
 }
 .footer__content .footer__navigation .footer__bottom--block .footer__bottom--social {
@@ -391,12 +391,12 @@ h6 {
           font-feature-settings: "liga" off;
   color: #fff;
   line-height: 133.333%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .footer__content .footer__navigation .footer__nav .company__menu .company__menu--item .company__menu--link {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
   line-height: 160%;
@@ -417,12 +417,12 @@ h6 {
           font-feature-settings: "liga" off;
   color: #fff;
   line-height: 133.333%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .footer__content .footer__navigation .footer__nav .legal__menu .legal__menu--item .legal__menu--link {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
   line-height: 160%;
@@ -437,7 +437,7 @@ h6 {
   display: inline-block;
   text-align: center;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 155.556%;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
@@ -523,7 +523,7 @@ h6 {
     max-height: 75%;
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__title {
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
   }
   .works__content .works__hero--image .worker-image {
@@ -554,17 +554,17 @@ h6 {
     bottom: 20px;
   }
   .professional .professional__information .professional__titles--item .professional__title {
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 115%;
   }
   .professional .professional__information .professional__titles--item .professional__subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .professional .professional__information .professional__info--banner .banner__info--item .banner--info {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .professional .professional__information .professional__info--banner .banner__info--item .banner--info-bold {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .professional .professional__information {
     gap: 45px;
@@ -579,7 +579,7 @@ h6 {
     gap: 25px;
   }
   .services__content .services__titles--items .services__title {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .services__content .services__cards--items .services__card {
     padding: 15px;
@@ -610,10 +610,10 @@ h6 {
     max-height: 80px;
   }
   .friendly__cards--items .friendly__card .friendly__card--info .friendly__card--title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .friendly__cards--items .friendly__card .friendly__card--info .friendly__card-subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .friendly__cards--items {
     gap: 35px 80px;
@@ -631,17 +631,17 @@ h6 {
     gap: 30px;
   }
   .works__content .works__information--block .works__information--title {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .heading__item {
-    font-size: 20px;
+    font-size: 1.25rem;
     max-width: 195px;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .number__item {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 295px;
   }
   .works__content .works__information--block .works__information--items .work__information--item {
@@ -654,23 +654,23 @@ h6 {
     padding-bottom: 70px;
   }
   .reviews__content .reviews__title--item .reviews__title {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .reviews__content .reviews__block .reviews__block--subtitle {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
   .blog__content .blog__titles--items .blog__title {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .blog__content .blog__titles--items .blog__subtitle {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
-    font-size: 27px;
+    font-size: 1.688rem;
   }
   .faq__content .faq__information--items .faq__title {
-    font-size: 48px;
+    font-size: 3rem;
   }
   .faq__content .faq__menu--items .faq__menu--item {
     width: 100%;
@@ -682,11 +682,11 @@ h6 {
     padding-bottom: 100px;
   }
   .faq__content .faq__information--items .faq__information--links .faq__help--link {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .faq__content .faq__menu--items .faq__menu--item .faq__menu--title .menu__card--title,
   .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title .menu__card--title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title {
     -webkit-box-align: start;
@@ -694,7 +694,7 @@ h6 {
             align-items: flex-start;
   }
   .banner__content .banner__content--block .banner__block--info .banner__title {
-    font-size: 48px;
+    font-size: 3rem;
     max-width: 545px;
     gap: 32px;
   }
@@ -723,7 +723,7 @@ h6 {
     gap: 35px;
   }
   .professional .professional__information .professional__information--list .info--list .info__list--items .info__list-title {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .professional .professional__information .professional__information--list .info--list {
     gap: 20px;
@@ -760,20 +760,20 @@ h6 {
     padding-top: 0;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
-    font-size: 25px;
+    font-size: 1.563rem;
   }
   .blog__content .blog__cards--items {
     gap: 27px;
   }
   .faq__content .faq__menu--items .faq__menu--item .faq__menu--title .menu__card--title,
   .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title .menu__card--title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .banner .main__container {
     left: 70px;
   }
   .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .blog__content .blog__titles--items {
     gap: 32px;
@@ -798,21 +798,21 @@ h6 {
   }
   .hero .hero__container .hero__main--title .hero__title {
     padding-top: 15px;
-    font-size: 58px;
+    font-size: 3.625rem;
   }
   .footer__content .footer__newsletter--block .newsletter__titles--items {
     padding-left: 35px;
   }
   .header .header__container .header__nav .nav .nav__menu .nav__menu--item .nav__menu--link,
   .header .header__container .header__nav .homepro__services--item .services__description {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .header .header__container .header__nav .homepro__services--item .services__description::before {
     max-width: 10px;
     max-height: 10px;
   }
   .header .header__container .header__nav .header__logo .homepro__title--link .homepro__title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .header .header__container .header__nav .nav .nav__menu .nav__menu--item .nav__menu--link,
   .header .header__container .header__nav .homepro__services--item .services__description {
@@ -822,22 +822,22 @@ h6 {
     padding: 15px 65px;
   }
   .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item:not(.not-circle)::after {
     max-width: 6px;
     max-height: 6px;
   }
   .hero .hero__container .hero__check--items .check__item .check__title--item {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .hero .hero__container .hero__main--title .hero__title {
-    font-size: 48px;
+    font-size: 3rem;
     max-width: 600px;
     line-height: 110%;
   }
   .hero .hero__button--item .hero__button {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .hero .hero__button--item .hero__button .white__bg--circle {
     max-width: 38px;
@@ -854,7 +854,7 @@ h6 {
     padding-top: 65px;
   }
   .professional .professional__information .professional__titles--item .professional__title {
-    font-size: 38px;
+    font-size: 2.375rem;
     line-height: 100%;
   }
   .professional .professional__information .professional__titles--item {
@@ -879,17 +879,17 @@ h6 {
     max-width: 400px;
   }
   .services__content .services__titles--items .services__title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   .services__content .services__titles--items .serives__subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 135%;
   }
   .services__content .services__cards--items .services__card .services__card-info .card__info--title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .services__content .services__cards--items .services__card .services__card-info .card__info-subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 250px;
   }
   .services__content .services__cards--items {
@@ -903,14 +903,14 @@ h6 {
     max-width: 250px;
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   .friendly__content .friendly__titles .friendly__titles--items {
     gap: 20px;
     padding-bottom: 40px;
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 630px;
   }
   .friendly__content .friendly__titles::after {
@@ -922,19 +922,19 @@ h6 {
     grid-template-columns: repeat(2, 400px);
   }
   .friendly__cards--items .friendly__card .friendly__card--info .friendly__card--title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .friendly__cards--items .friendly__card .friendly__card--info .friendly__card-subtitle {
     font-size: 1rem;
   }
   .works__content .works__information--block .works__information--title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .heading__item {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .number__item {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .works__content .works__information--block .works__information--items .work__information--item {
     -webkit-box-orient: vertical;
@@ -959,10 +959,10 @@ h6 {
     padding-bottom: 50px;
   }
   .reviews__content .reviews__title--item .reviews__title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   .reviews__content .reviews__block .reviews__block--subtitle .reviews__subtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     max-width: 650px;
   }
   .reviews__content .reviews__block .reviews__block--subtitle {
@@ -975,7 +975,7 @@ h6 {
     max-height: 56px;
   }
   .reviews__content .reviews__block .reviews__profile--item .reviews__profile--rating .profile__title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .gold__star--icon,
   .white__star--icon {
@@ -983,36 +983,36 @@ h6 {
     max-height: 24px;
   }
   .blog__content .blog__titles--items .blog__title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   .blog__content .blog__titles--items .blog__subtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     max-width: 470px;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--image {
     max-width: 90%;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .card__date {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .blog__content .view__more--item .view {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .faq__content .faq__information--items .faq__title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   .faq__content .faq__menu--items .faq__menu--item .faq__menu--title .menu__card--title,
   .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title .menu__card--title {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title {
     padding: 18px 32px;
@@ -1021,10 +1021,10 @@ h6 {
     font-size: 1rem;
   }
   .banner__content .banner__content--block .banner__block--info .banner__title {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
   .banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .banner {
     min-height: 380px;
@@ -1033,10 +1033,10 @@ h6 {
     max-width: 420px;
   }
   .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .footer__content .footer__newsletter--block .newsletter__form {
     max-width: 435px;
@@ -1047,18 +1047,18 @@ h6 {
   }
   .footer__content .footer__navigation .footer__nav .company__menu .company__menu--title,
   .footer__content .footer__navigation .footer__nav .legal__menu .legal__menu--title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .footer__content .footer__navigation .footer__nav .company__menu .company__menu--item .company__menu--link,
   .footer__content .footer__navigation .footer__nav .legal__menu .legal__menu--item .legal__menu--link {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .footer__content .footer__navigation .footer__nav .company__menu,
   .footer__content .footer__navigation .footer__nav .legal__menu {
     gap: 8px;
   }
   .footer__content .footer__navigation .footer__bottom--block .footer__logo .footer__bottom--title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .hero .hero__container .hero__content .hero__content--item {
     padding: 0;
@@ -1083,16 +1083,16 @@ h6 {
             justify-content: center;
   }
   .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
   .blog__content .blog__cards--items .blog__card .card__menu--buttons {
     gap: 8px;
   }
   .faq__content .faq__information--items .faq__information--links .faq__help--item {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .faq__content .faq__information--items .faq__information--links .faq__help--link {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .arrow__right,
   .arrow__left {
@@ -1106,7 +1106,7 @@ h6 {
     max-height: 40px;
   }
   .footer__content .footer__navigation .footer__bottom--block .footer__bottom--subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 335px;
     line-height: 135%;
   }
@@ -1127,7 +1127,7 @@ h6 {
   }
   .footer__content .footer__newsletter--block .newsletter__form .subscribe {
     padding: 10px 30px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 @media screen and (width <= 1040px) {
@@ -1135,7 +1135,7 @@ h6 {
     max-width: 450px;
   }
   .friendly__cards--items .friendly__card .friendly__card--info .friendly__card--title {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .friendly__cards--items .friendly__card .friendly__card--info .friendly__card-subtitle {
     font-size: 0.95rem;
@@ -1154,7 +1154,7 @@ h6 {
     max-width: 400px;
   }
   .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 @media screen and (width <= 992px) {
@@ -1194,10 +1194,10 @@ h6 {
     gap: 64px;
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__title {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__subtitle {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .works__content {
     -webkit-box-orient: vertical;
@@ -1222,7 +1222,7 @@ h6 {
             justify-content: space-between;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .heading__item {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .works__content .works__information--block {
     -webkit-box-align: center;
@@ -1262,7 +1262,7 @@ h6 {
     text-align: center;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .faq__content {
     -webkit-box-orient: vertical;
@@ -1305,7 +1305,7 @@ h6 {
     gap: 20px;
   }
   .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .banner .main__container {
     left: 15px;
@@ -1317,6 +1317,10 @@ h6 {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
+  }
+  .friendly__cards--items {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media screen and (width <= 760px) {
@@ -1406,10 +1410,10 @@ h6 {
     padding: 15px 30px;
   }
   .header .header__container .header__nav .header__logo .homepro__title--link .homepro__title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .footer__copyright .footer__copy {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .friendly__cards--items .friendly__card .friendly__card--info .friendly__card-subtitle {
     max-width: 300px;
@@ -1441,7 +1445,7 @@ h6 {
     max-width: 450px;
   }
   .banner__content .banner__content--block .banner__block--info .banner__title {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
   .banner .main__container {
     max-width: 425px;
@@ -1450,10 +1454,10 @@ h6 {
     left: 20px;
   }
   .hero .hero__container .hero__main--title .hero__title {
-    font-size: 42px;
+    font-size: 2.625rem;
   }
   .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .footer__content .footer__newsletter--block .newsletter__form {
     max-width: 355px;
@@ -1470,14 +1474,14 @@ h6 {
     gap: 35px;
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__subtitle {
     max-width: 300px;
     text-align: center;
   }
   .reviews__content .reviews__title--item .reviews__title {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 }
 @media screen and (width <= 505px) {
@@ -1495,10 +1499,10 @@ h6 {
     left: 15px;
   }
   .hero .hero__container .hero__check--items .check__item .check__title--item {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .footer__content .footer__newsletter--block .newsletter__form {
     max-width: 325px;
@@ -1548,15 +1552,15 @@ h6 {
     padding-top: 24px;
   }
   .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .hero .hero__container .hero__main--title .hero__title {
-    font-size: 32px;
+    font-size: 2rem;
     padding-top: 0px;
     max-width: 330px;
   }
   .hero .hero__container .hero__check--items .check__item .check__title--item {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .check__item--icon {
     max-width: 16px;
@@ -1567,7 +1571,7 @@ h6 {
     padding-bottom: 24px;
   }
   .hero .hero__button--item .hero__button {
-    font-size: 18px;
+    font-size: 1.125rem;
     padding: 6px 8px 6px 24px;
   }
   .features-icon {
@@ -1579,7 +1583,7 @@ h6 {
     max-height: 32px;
   }
   .hero .hero__features--items .features__item .features__item--title {
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
   }
   .hero .hero__features--items .features__item {
@@ -1619,14 +1623,14 @@ h6 {
     padding: 60px 0px 32px 0px;
   }
   .professional .professional__information .professional__titles--item .professional__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 133.333%;
   }
   .professional .professional__information .professional__titles--item {
     gap: 12px;
   }
   .professional .professional__information .professional__titles--item .professional__subtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 155.556%;
     text-align: left;
     max-width: 328px;
@@ -1651,7 +1655,7 @@ h6 {
     gap: 24px;
   }
   .professional .professional__information .professional__information--list .info--list .info__list--items .info__list-title {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .professional .professional__information .professional__info--banner .banner__info--item {
     max-width: 327px;
@@ -1662,7 +1666,7 @@ h6 {
   }
   .professional .professional__information .professional__info--banner .banner__info--item .banner--info {
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .hero .hero__container .hero__content .hero__content--item {
     max-width: 375px;
@@ -1683,13 +1687,13 @@ h6 {
     padding: 32px 0;
   }
   .services__content .services__titles--items .services__title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .services__content .services__titles--items {
     gap: 12px;
   }
   .services__content .services__titles--items .serives__subtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
     line-height: 155.556%;
   }
@@ -1701,14 +1705,14 @@ h6 {
     margin: 0 auto;
   }
   .services__content .services__cards--items .services__card .services__card-info .card__info--title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .services__content .services__cards--items .services__card .services__card-info {
     gap: 12px;
   }
   .services__content .services__cards--items .services__card .services__card-info .card__info-subtitle {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     max-width: 304px;
   }
   .services__content .more__services--item {
@@ -1717,7 +1721,7 @@ h6 {
   }
   .services__content .more__services--item .more {
     max-width: 267px;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .friendly {
     margin: 20px 24px;
@@ -1727,7 +1731,7 @@ h6 {
     gap: 52px;
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     max-width: 202px;
   }
@@ -1737,14 +1741,14 @@ h6 {
   }
   .friendly__content .friendly__titles .friendly__titles--items .friendly__subtitle {
     max-width: 263px;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .friendly__cards--items .friendly__card {
     gap: 12px;
   }
   .friendly__cards--items .friendly__card .friendly__card--info .friendly__card-subtitle {
     max-width: 263px;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 155.556%;
   }
   .works__content {
@@ -1752,7 +1756,7 @@ h6 {
     gap: 24px;
   }
   .works__content .works__information--block .works__information--title {
-    font-size: 24px;
+    font-size: 1.5rem;
     max-width: 175px;
   }
   .works__content .works__information--block {
@@ -1761,20 +1765,20 @@ h6 {
             align-items: flex-start;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .number__item {
-    font-size: 52px;
+    font-size: 3.25rem;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .heading__item {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .works__content .works__information--block .works__information--items .work__information--item .work__information--subtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     max-width: 327px;
   }
   .reviews .main__container {
     padding: 32px 0px;
   }
   .reviews__content .reviews__title--item .reviews__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     max-width: 327px;
   }
@@ -1819,7 +1823,7 @@ h6 {
     gap: 32px;
   }
   .blog__content .blog__titles--items .blog__title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .blog__content .blog__titles--items {
     gap: 16px;
@@ -1833,21 +1837,21 @@ h6 {
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .card__date {
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .blog__content .blog__cards--items .blog__card {
     gap: 16px;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
-    font-size: 20px;
+    font-size: 1.25rem;
     max-width: 327px;
     text-align: left;
   }
   .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--subtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .blog__content .blog__cards--items .blog__card .card__menu--buttons .menu__button {
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 8px 16px;
   }
   #not__item--mobile {
@@ -1858,13 +1862,13 @@ h6 {
     gap: 32px;
   }
   .faq__content .faq__information--items .faq__title {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .faq__content .faq__information--items {
     gap: 16px;
   }
   .faq__content .faq__information--items .faq__information--links .faq__help--link {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .faq__content .faq__menu--items {
     gap: 12px;
@@ -1877,7 +1881,7 @@ h6 {
     gap: 12px;
   }
   .banner__content .banner__content--block .banner__block--info .banner__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     max-width: 269px;
   }
   .banner__content .banner__content--block .banner__block--info {
@@ -1886,7 +1890,7 @@ h6 {
             align-items: center;
   }
   .banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .banner__content .banner__content--block .banner__block--info .hero__check--items {
     gap: 24px;
@@ -1912,7 +1916,7 @@ h6 {
     max-width: 105px;
   }
   .footer__copyright .footer__copy {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .footer {
     padding: 0px;
@@ -1941,7 +1945,7 @@ h6 {
     -moz-text-align-last: left;
          text-align-last: left;
     text-align: left;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .footer__content .footer__newsletter--block {
     gap: 24px;
@@ -1982,19 +1986,19 @@ h6 {
     max-width: 240px;
   }
   .hero .hero__container .hero__main--title .hero__title {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .hero .hero__container .hero__check--items .check__item .check__title--item {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .services__content .services__cards--items .services__card .services__card-info .card__info-subtitle {
     max-width: 265px;
   }
   .footer__copyright .footer__copy {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .footer__content .footer__navigation .footer__nav {
     gap: 80px;
@@ -2004,13 +2008,13 @@ h6 {
     left: -15px;
   }
   .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__title {
-    font-size: 23px;
+    font-size: 1.438rem;
   }
   .footer__content .footer__newsletter--block .newsletter__titles--items .newsletter__subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .banner__content .banner__content--block .banner__decoration--item .decoration__item {
     max-width: 250px;
@@ -2132,7 +2136,7 @@ body {
           align-items: center;
   gap: 25px;
   color: #9ea3b5;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 140%;
 }
@@ -2163,7 +2167,7 @@ body {
   text-align: center;
   line-height: 118.75%;
   color: #fff;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 800;
 }
 .hero .hero__container .hero__check--items {
@@ -2188,7 +2192,7 @@ body {
 .hero .hero__container .hero__check--items .check__item .check__title--item {
   color: #15b2f5;
   line-height: 160%;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .hero .hero__button--item {
   display: -webkit-box;
@@ -2211,7 +2215,7 @@ body {
   padding: 8px 8px 8px 24px;
   color: #fff;
   line-height: 13.333%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .hero .hero__button--item .hero__button .white__bg--circle {
@@ -2276,7 +2280,7 @@ body {
   display: inline-block;
   color: #fff;
   line-height: 133.333%;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
 }
 .hero .hero__decorations--items {
@@ -2333,13 +2337,13 @@ body {
   max-width: 557px;
   color: #171921;
   line-height: 123.077%;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
 }
 .professional .professional__information .professional__titles--item .professional__subtitle {
   color: #545971;
   line-height: 155.556%;
-  font-size: 18px;
+  font-size: 1.125rem;
   max-width: 557px;
 }
 .professional .professional__information .professional__information--list {
@@ -2373,7 +2377,7 @@ body {
 .professional .professional__information .professional__information--list .info--list .info__list--items .info__list-title {
   color: #1f3584;
   line-height: 140%;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 .professional .professional__information .professional__info--banner .banner__info--item {
@@ -2385,12 +2389,12 @@ body {
 .professional .professional__information .professional__info--banner .banner__info--item .banner--info {
   color: #fff;
   line-height: 155.556%;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .professional .professional__information .professional__info--banner .banner__info--item .banner--info-bold {
   color: #fff;
   line-height: 155.556%;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   text-decoration: underline;
 }
@@ -2434,7 +2438,7 @@ body {
 }
 .services__content .services__titles--items .services__title {
   color: #171921;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
   line-height: 123.077%;
 }
@@ -2442,7 +2446,7 @@ body {
   text-align: center;
   max-width: 552px;
   color: #545971;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 155.556%;
 }
 .services__content .services__cards--items {
@@ -2525,13 +2529,13 @@ body {
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
   color: #171921;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 133.333%;
 }
 .services__content .services__cards--items .services__card .services__card-info .card__info-subtitle {
   color: #545971;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 155.556%;
 }
 .services__content .more__services--item {
@@ -2572,13 +2576,13 @@ body {
   text-align: center;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .services__content .more__services--item .more__item .more-subtitle {
   color: #fff;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 155.556%;
 }
 .services__content .more__services--item .more {
@@ -2587,7 +2591,7 @@ body {
   background: #fff;
   padding: 16px 24px;
   color: #15b2f5;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 133.333%;
 }
@@ -2645,14 +2649,14 @@ body {
 .friendly__content .friendly__titles .friendly__titles--items .friendly__title {
   color: #fff;
   line-height: 123.077%;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
 }
 .friendly__content .friendly__titles .friendly__titles--items .friendly__subtitle {
   max-width: 613px;
   color: #9ea3b5;
   line-height: 155.556%;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .friendly__content .friendly__titles::after {
   content: "";
@@ -2726,14 +2730,14 @@ body {
 .friendly__cards--items .friendly__card .friendly__card--info .friendly__card--title {
   color: #fff;
   line-height: 133.333%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .friendly__cards--items .friendly__card .friendly__card--info .friendly__card-subtitle {
   color: #9ea3b5;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 155.556%;
 }
 
@@ -2776,7 +2780,7 @@ body {
   max-width: 395px;
   color: #171921;
   line-height: 123.077%;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
 }
 .works__content .works__information--block .works__information--items {
@@ -2804,14 +2808,14 @@ body {
 .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .number__item {
   color: #9ea3b5;
   line-height: 123.077%;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
 }
 .works__content .works__information--block .works__information--items .work__information--item .work__information--titles .heading__item {
   max-width: 164px;
   color: #171921;
   line-height: 133.333%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .works__content .works__information--block .works__information--items .work__information--item .work__information--subtitle {
@@ -2819,7 +2823,7 @@ body {
   color: #9ea3b5;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 155.556%;
 }
 
@@ -2854,7 +2858,7 @@ body {
 .reviews__content .reviews__title--item .reviews__title {
   max-width: 650px;
   color: #171921;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
   line-height: 123.077%;
 }
@@ -2902,7 +2906,7 @@ body {
           font-feature-settings: "liga" off;
   line-height: 160%;
   color: #545971;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .reviews__content .reviews__block .reviews__block--subtitle .menu__arrow--left {
   width: 48px;
@@ -2942,7 +2946,7 @@ body {
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
   line-height: 133.333%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .reviews__content .reviews__menu--swipers {
@@ -3008,7 +3012,7 @@ body {
   color: #171921;
   line-height: 123.077%;
   text-align: center;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
 }
 .blog__content .blog__titles--items .blog__subtitle {
@@ -3017,7 +3021,7 @@ body {
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
   line-height: 150%;
-  font-size: 24px;
+  font-size: 1.5rem;
   max-width: 694px;
 }
 .blog__content .blog__cards--items {
@@ -3053,7 +3057,7 @@ body {
   gap: 16px;
 }
 .blog__content .blog__cards--items .blog__card .blog__card--info .card__date {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #545971;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -3067,7 +3071,7 @@ body {
 .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--title {
   color: #171921;
   line-height: 125%;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 .blog__content .blog__cards--items .blog__card .blog__card--info .blog__card--subtitle {
@@ -3075,7 +3079,7 @@ body {
           font-feature-settings: "liga" off;
   line-height: 155.556%;
   color: #545971;
-  font-size: 18px;
+  font-size: 1.125rem;
   display: -webkit-box;
   max-width: 450px;
   -webkit-line-clamp: 3;
@@ -3117,7 +3121,7 @@ body {
   background: transparent;
   line-height: 133.333%;
   color: #15b2f5;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -3148,7 +3152,7 @@ body {
 .faq__content .faq__information--items .faq__title {
   color: #171921;
   line-height: 123.077%;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
 }
 .faq__content .faq__information--items .faq__information--links {
@@ -3165,13 +3169,13 @@ body {
           font-feature-settings: "liga" off;
   color: #171921;
   line-height: 160%;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .faq__content .faq__information--items .faq__information--links .faq__help--link {
   color: #15b2f5;
   line-height: 133.333%;
   text-decoration: underline;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .faq__content .faq__menu--items {
@@ -3211,14 +3215,14 @@ body {
   line-height: 133.333%;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .faq__content .faq__menu--items .faq__menu--item .faq__menu--title > button {
   background: transparent;
 }
 .faq__content .faq__menu--items .faq__menu--item .faq__menu--subtitle {
-  font-size: 16px;
+  font-size: 1rem;
   color: #737373;
   font-family: "Be Vietnam Pro" !important;
   line-height: 150%;
@@ -3249,7 +3253,7 @@ body {
   line-height: 133.333%;
   -webkit-font-feature-settings: "liga" off;
           font-feature-settings: "liga" off;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .faq__content .faq__menu--items .faq__menu--subitem .faq__menu--title > button {
@@ -3293,7 +3297,7 @@ body {
   text-align: center;
   line-height: 118.75%;
   color: #fff;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 800;
   text-align: left;
 }
@@ -3319,7 +3323,7 @@ body {
 .banner__content .banner__content--block .banner__block--info .hero__check--items .check__item .check__title--item {
   color: #15b2f5;
   line-height: 160%;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .banner__content .banner__content--block .banner__block--info .hero__button--item .hero__button {
   display: -webkit-box;
@@ -3334,7 +3338,7 @@ body {
   padding: 8px 8px 8px 24px;
   color: #fff;
   line-height: 13.333%;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .banner__content .banner__content--block .banner__block--info .hero__button--item .white__bg--circle {

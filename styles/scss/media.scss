@@ -1112,6 +1112,10 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
   }
+  .friendly__cards--items {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (width <= 760px) {

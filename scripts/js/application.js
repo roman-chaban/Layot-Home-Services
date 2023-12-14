@@ -10,5 +10,6 @@ const legalMenuItems = document.querySelectorAll(
   ".legal__menu > .legal__menu--item"
 );
 let homeProLogo = document.querySelectorAll(".homepro__logo");
-let viewButtonItem = document.querySelector('.view');
+let viewButtonItem = document.querySelector(".view");
+let professionalImage = document.querySelector(".professional__image");
 
