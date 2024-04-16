@@ -33,29 +33,31 @@
               <span class="homepro__title">HomePro</span>
             </a>
           </div>
+
           <nav class="nav">
             <ul class="nav__menu">
               <li class="nav__menu--item">
-                <a href="#" class="nav__menu--link">About Us</a>
+                <a href="#About" class="nav__menu--link">About Us</a>
               </li>
               <li class="nav__menu--item">
-                <a href="#" class="nav__menu--link">Services</a>
+                <a href="#Services" class="nav__menu--link">Services</a>
               </li>
               <li class="nav__menu--item">
-                <a href="#" class="nav__menu--link">Our Blog</a>
+                <a href="#Our-Blog" class="nav__menu--link">Our Blog</a>
               </li>
               <li class="nav__menu--item">
-                <a href="#" class="nav__menu--link">Contact</a>
+                <a href="#Contact" class="nav__menu--link">Contact</a>
               </li>
             </ul>
           </nav>
+
           <div class="homepro__services--item">
             <span class="services__description">24 Hour Services</span>
-            <div class="header__burger">
+            <button class="header__burger" id="burger">
               <span class="burger__menu--item"></span>
               <span class="burger__menu--item"></span>
               <span class="burger__menu--item"></span>
-            </div>
+            </button>
           </div>
         </div>
       </div>
@@ -579,7 +581,7 @@
                 <div class="work__information--item">
                   <div class="work__information--titles">
                     <span class="number__item">3.</span>
-                    <h5 class="heading__item">Your request is complated</h5>
+                    <h5 class="heading__item">Your request is completed</h5>
                   </div>
                   <p class="work__information--subtitle">
                     Once your technician arrives, he will diagnose the problem
@@ -633,7 +635,7 @@
               <div class="reviews__profile--item">
                 <img
                   src="images/review/Profile-Image.svg"
-                  alt="Prfoile Image"
+                  alt="Profile-Image"
                   class="profile__image"
                 />
                 <div class="reviews__profile--rating">
@@ -720,7 +722,11 @@
                   <button class="menu__button" type="button">
                     Architecture
                   </button>
-                  <button class="menu__button" type="button" id="not__item--mobile">
+                  <button
+                    class="menu__button"
+                    type="button"
+                    id="not__item--mobile"
+                  >
                     Maintenance
                   </button>
                 </div>
@@ -755,7 +761,11 @@
                   <button class="menu__button" type="button">
                     Architecture
                   </button>
-                  <button class="menu__button" type="button"  id="not__item--mobile">
+                  <button
+                    class="menu__button"
+                    type="button"
+                    id="not__item--mobile"
+                  >
                     Maintenance
                   </button>
                 </div>
@@ -790,7 +800,11 @@
                   <button class="menu__button" type="button">
                     Architecture
                   </button>
-                  <button class="menu__button" type="button" id="not__item--mobile">
+                  <button
+                    class="menu__button"
+                    type="button"
+                    id="not__item--mobile"
+                  >
                     Maintenance
                   </button>
                 </div>
@@ -972,6 +986,7 @@
                 name="user-email"
                 class="newsletter__email--item"
                 placeholder="Enter email address"
+                required
               />
               <button class="subscribe" type="button">Subscribe</button>
             </form>

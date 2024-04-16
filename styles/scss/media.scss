@@ -1,7 +1,10 @@
-@import "variables";
-@import "colors";
+@import 'variables';
+@import 'colors';
 
 @media screen and (width <= 1550px) {
+  .header__burger {
+    display: none;
+  }
   .professional,
   .services,
   .blog,
@@ -36,7 +39,7 @@
     padding: 0 32px;
   }
   .hero .hero__features--items::before {
-    content: "";
+    content: '';
     position: absolute;
     top: -25px;
     bottom: 0;
@@ -45,7 +48,7 @@
     background: linear-gradient(to bottom, #4f66b700, #4f66b7, #4f66b700);
   }
   .hero .hero__features--items::after {
-    content: "";
+    content: '';
     position: absolute;
     top: calc(100% - 61%);
     right: 0;
@@ -323,6 +326,9 @@
   }
   .banner {
     min-height: 460px;
+  }
+  .hero .hero__features--items .features__item .features__item--title {
+    max-width: 95px;
   }
 }
 
@@ -860,13 +866,16 @@
     padding: 0;
   }
   .hero .hero__features--items {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 1fr);
   }
   .hero .hero__features--items::after {
     left: 50px;
   }
   .hero .hero__container .hero__content .hero__content--item {
     gap: 50px;
+  }
+  .hero .hero__container .hero__main--title .hero__title {
+    font-size: 3.5rem;
   }
 }
 
@@ -973,9 +982,13 @@
     .menu__button {
     font-size: $--primary-six;
   }
+  .header__burger {
+    display: flex;
+  }
 }
 
 @media screen and (width <= 992px) {
+
   .professional .professional__content {
     flex-direction: column-reverse;
     gap: 30px;
@@ -1105,9 +1118,6 @@
   .banner .main__container {
     left: 15px;
   }
-  .header .header__container .header__nav .nav .nav__menu {
-    display: none;
-  }
   .services__content .services__cards--items {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
@@ -1115,6 +1125,34 @@
   .friendly__cards--items {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    background: $primary-background;
+    transition: transform 0.5s;
+  }
+
+  .nav.open .burger__menu--item:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav__menu {
+    height: 100vh;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav.open {
+    transform: translateX(100%);
   }
 }
 
@@ -1151,6 +1189,14 @@
   }
   .footer__content .footer__navigation {
     padding-bottom: 20px;
+  }
+  .hero .hero__features--items {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .hero__right--image,
+  .hero__left--image {
+    display: none;
   }
 }
 

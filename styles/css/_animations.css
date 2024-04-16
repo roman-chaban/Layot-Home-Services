@@ -1,0 +1,41 @@
+.hero .hero__button--item .hero__button {
+  -webkit-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+.hero .hero__button--item .hero__button:hover {
+  background-color: #1f3584;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.professional .professional__intro-image .professional__image {
+  cursor: pointer;
+  -webkit-transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+}
+.professional .professional__intro-image .professional__image:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.services__content .more__services--item .more {
+  -webkit-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+.services__content .more__services--item .more:hover {
+  background: #142257;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.social__icon {
+  padding: 5px;
+  -webkit-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  border-radius: 10px;
+}
+.social__icon:hover {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}

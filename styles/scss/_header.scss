@@ -1,5 +1,5 @@
-@import "variables";
-@import "colors";
+@import 'variables';
+@import 'colors';
 
 .header {
   position: fixed;
@@ -62,7 +62,7 @@
             weight: 700;
           }
           &::before {
-            content: "";
+            content: '';
             position: absolute;
             top: -3px;
             left: -20px;
@@ -79,20 +79,35 @@
 }
 
 .header__burger {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  & .burger__menu--item {
-    display: block;
-    width: 30px;
-    height: 3.5px;
-    background: $primary-white;
-    border-radius: 12px;
-  }
+  position: relative;
+  z-index: 2;
 }
 
-@media screen and (width > 1024px) {
-  .header__burger {
-    display: none;
-  }
+.burger__menu--item {
+  position: absolute;
+  left: 5px;
+  width: 30px;
+  height: 3.5px;
+  background: $primary-white;
+  border-radius: 12px;
+  transition: transform 0.5s, opacity 0.5s, background-color 0.5s;
+}
+
+.burger__menu--item:nth-child(1) {
+  transform: translateY(-10px);
+}
+
+.nav.open .burger__menu--item:nth-child(2) {
+  opacity: 0;
+}
+
+.nav.open .burger__menu--item:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+.nav.open .burger__menu--item:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.burger__menu--item:nth-child(3) {
+  transform: translateY(10px);
 }

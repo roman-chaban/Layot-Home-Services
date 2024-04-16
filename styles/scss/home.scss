@@ -1,14 +1,15 @@
-@import "reset";
-@import "header";
-@import "footer";
-@import "variables";
-@import "colors";
-@import "mixins";
-@import "media";
-@import "animations";
+@import 'reset';
+@import 'header';
+@import 'footer';
+@import 'variables';
+@import 'colors';
+@import 'mixins';
+@import 'media';
+@import 'animations';
+@import './burger.scss';
 
 body {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .hero {
@@ -54,7 +55,7 @@ body {
               }
               line-height: 140%;
               &:not(.not-circle)::after {
-                content: "";
+                content: '';
                 position: relative;
                 top: 1.5px;
                 display: block;
@@ -122,7 +123,7 @@ body {
       gap: 16px;
       padding-right: 32px;
       &:not(.not-line):after {
-        content: "";
+        content: '';
         height: 48px;
         width: 1.5px;
         background: linear-gradient(
@@ -312,7 +313,7 @@ body {
         flex-direction: column;
         gap: 12px;
         & .card__info--title {
-          font-feature-settings: "liga" off;
+          font-feature-settings: 'liga' off;
           color: $primary-black;
           font : {
             size: $--primary-logo;
@@ -346,7 +347,7 @@ body {
         color: $primary-white;
         line-height: 133.333%;
         text-align: center;
-        font-feature-settings: "liga" off;
+        font-feature-settings: 'liga' off;
         font: {
           size: $--primary-logo;
           weight: 700;
@@ -425,7 +426,7 @@ body {
       }
     }
     &::after {
-      content: "";
+      content: '';
       margin-top: 60px;
       width: 100%;
       height: 1.5px;
@@ -462,7 +463,7 @@ body {
 
       & .friendly__card-subtitle {
         color: $primary-gray;
-        font-feature-settings: "liga" off;
+        font-feature-settings: 'liga' off;
         font-size: $--primary-frist;
         line-height: 155.556%;
       }
@@ -533,7 +534,7 @@ body {
         & .work__information--subtitle {
           max-width: 420px;
           color: $primary-gray;
-          font-feature-settings: "liga" off;
+          font-feature-settings: 'liga' off;
           font: {
             size: $--primary-frist;
           }
@@ -581,7 +582,7 @@ body {
         padding: 24px 0;
       }
       &::after {
-        content: "";
+        content: '';
         display: block;
         width: 100%;
         height: 1.5px;
@@ -597,7 +598,7 @@ body {
       & .reviews__subtitle {
         max-width: 728px;
         text-align: center;
-        font-feature-settings: "liga" off;
+        font-feature-settings: 'liga' off;
         line-height: 160%;
         color: $primary-gray-2;
         font-size: $--primary-secondary;
@@ -627,7 +628,7 @@ body {
         gap: 8px;
         & .profile__title {
           color: $primary-black;
-          font-feature-settings: "liga" off;
+          font-feature-settings: 'liga' off;
           line-height: 133.333%;
           font : {
             size: $--primary-logo;
@@ -690,7 +691,7 @@ body {
     & .blog__subtitle {
       color: $primary-gray-2;
       text-align: center;
-      font-feature-settings: "liga" off;
+      font-feature-settings: 'liga' off;
       line-height: 150%;
       font-size: $--primary-logo;
       max-width: 694px;
@@ -717,7 +718,7 @@ body {
           display: -webkit-box;
           -webkit-box-orient: vertical;
           -webkit-line-clamp: 1;
-          font-feature-settings: "liga" off;
+          font-feature-settings: 'liga' off;
           text-overflow: ellipsis;
           line-height: 155.556%;
           overflow: hidden;
@@ -731,7 +732,7 @@ body {
           }
         }
         & .blog__card--subtitle {
-          font-feature-settings: "liga" off;
+          font-feature-settings: 'liga' off;
           line-height: 155.556%;
           color: $primary-gray-2;
           font-size: $--primary-frist;
@@ -806,7 +807,7 @@ body {
       align-items: center;
       gap: 11px;
       & .faq__help--item {
-        font-feature-settings: "liga" off;
+        font-feature-settings: 'liga' off;
         color: $primary-black;
         line-height: 160%;
         font-size: $--primary-secondary;
@@ -840,7 +841,7 @@ body {
         & .menu__card--title {
           color: $primary-gray-2;
           line-height: 133.333%;
-          font-feature-settings: "liga" off;
+          font-feature-settings: 'liga' off;
           font: {
             size: $--primary-logo;
             weight: 700;
@@ -853,9 +854,9 @@ body {
       & .faq__menu--subtitle {
         font-size: $--primary-six;
         color: $primary-light-green;
-        font-family: "Be Vietnam Pro" !important;
+        font-family: 'Be Vietnam Pro' !important;
         line-height: 150%;
-        font-feature-settings: "ss01" on;
+        font-feature-settings: 'ss01' on;
       }
     }
     & .faq__menu--subitem {
@@ -869,7 +870,7 @@ body {
         & .menu__card--title {
           color: $primary-gray-2;
           line-height: 133.333%;
-          font-feature-settings: "liga" off;
+          font-feature-settings: 'liga' off;
           font: {
             size: $--primary-logo;
             weight: 700;
