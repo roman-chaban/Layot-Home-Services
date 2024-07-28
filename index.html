@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Services</title>
+    <title>Layout | Home Services</title>
     <link rel="HomePro Icon" href="./images/header/HomePro Logo.svg" />
     <link rel="stylesheet" href="./styles/css/home.css" />
     <link rel="stylesheet" href="./styles/css/media.css" />
@@ -15,53 +15,60 @@
       href="https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
       rel="stylesheet"
     />
-    <script src="./scripts/js/application.js" defer></script>
+    <script src="./scripts/js/layout.js" defer></script>
+    <script src="./scripts/accordion/accordion.js" async></script>
+    <script src="./scripts/slider/slider.js" defer></script>
   </head>
   <body id="root">
+    <!-- Header Start -->
+
     <header class="header">
       <div class="header__container">
-        <div class="header__nav">
-          <div class="header__logo">
-            <a href="#" class="homepro__logo--link">
-              <img
-                src="./images/header/HomePro Logo.svg"
-                alt="HomePro Logo"
-                class="homepro__logo"
-              />
-            </a>
-            <a href="#" class="homepro__title--link">
-              <span class="homepro__title">HomePro</span>
-            </a>
+        <div class="header__logo">
+          <img src="./images/header/HomePro Logo.svg" alt="HomePro Logo" />
+          <h2 class="header__logo--title">HomePro</h2>
+        </div>
+        <nav class="header__nav">
+          <div class="header__logo burger__logo">
+            <img src="./images/header/HomePro Logo.svg" alt="HomePro Logo" />
+            <h2 class="header__logo--title">HomePro</h2>
           </div>
-
-          <nav class="nav">
-            <ul class="nav__menu">
-              <li class="nav__menu--item">
-                <a href="#About" class="nav__menu--link">About Us</a>
-              </li>
-              <li class="nav__menu--item">
-                <a href="#Services" class="nav__menu--link">Services</a>
-              </li>
-              <li class="nav__menu--item">
-                <a href="#Our-Blog" class="nav__menu--link">Our Blog</a>
-              </li>
-              <li class="nav__menu--item">
-                <a href="#Contact" class="nav__menu--link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-
-          <div class="homepro__services--item">
-            <span class="services__description">24 Hour Services</span>
-            <button class="header__burger" id="burger">
-              <span class="burger__menu--item"></span>
-              <span class="burger__menu--item"></span>
-              <span class="burger__menu--item"></span>
-            </button>
+          <button class="header__nav--close">
+            <span class="header__nav--close-item"></span>
+          </button>
+          <ul class="header__nav--menu">
+            <li class="header__nav--menu-item">
+              <a href="#" class="header__nav--menu-item_link">About Us</a>
+            </li>
+            <li class="header__nav--menu-item">
+              <a href="#" class="header__nav--menu-item_link">Services</a>
+            </li>
+            <li class="header__nav--menu-item">
+              <a href="#" class="header__nav--menu-item_link">Our Blog</a>
+            </li>
+            <li class="header__nav--menu-item">
+              <a href="#" class="header__nav--menu-item_link">Contact</a>
+            </li>
+          </ul>
+          <div class="header__services burger__services">
+            <h4 class="burger__services--title">24 Hour Services</h4>
           </div>
+        </nav>
+        <div class="header__services">
+          <h4 class="header__services--title">24 Hour Services</h4>
+          <button class="header__burger-menu" aria-label="Toggle menu">
+            <span class="header__burger-menu--line"></span>
+            <span class="header__burger-menu--line"></span>
+            <span class="header__burger-menu--line"></span>
+          </button>
         </div>
       </div>
     </header>
+
+    <!-- Header End -->
+
+    <!-- Main Start -->
+
     <main class="main">
       <section class="hero">
         <div class="hero__container">
@@ -602,81 +609,187 @@
                 Here our original reviews from trusted platform
               </h3>
             </div>
-            <article class="reviews__block">
-              <div class="reviews__block-logo">
-                <img
-                  src="images/review/Trustpilot-Logo.svg"
-                  alt="Trustpilot-Logo"
-                  class="trustpilot__logo"
-                />
-              </div>
-              <div class="reviews__block--subtitle">
-                <button class="menu__arrow--left" type="button">
+            <article class="reviews__block slider">
+              <div class="slider__block">
+                <div class="reviews__block-logo">
                   <img
-                    src="images/review/IC_arrow-Left.svg"
-                    alt="Arrow Left Icon"
-                    class="arrow__left"
+                    src="images/review/Trustpilot-Logo.svg"
+                    alt="Trustpilot-Logo"
+                    class="trustpilot__logo"
                   />
-                </button>
-                <p class="reviews__subtitle">
-                  Roof repairs can be a real headache, but HomePro makes it
-                  easy! Their roofing team turned my leaky roof into a stockade.
-                  With their craftsmanship and the best materials, my house is
-                  now ready to weather any storm.
-                </p>
-                <button class="menu__arrow-right" type="button">
+                </div>
+                <div class="reviews__block--subtitle">
+                  <p class="reviews__subtitle">
+                    Roof repairs can be a real headache, but HomePro makes it
+                    easy! Their roofing team turned my leaky roof into a
+                    stockade. With their craftsmanship and the best materials,
+                    my house is now ready to weather any storm.
+                  </p>
+                </div>
+                <div class="reviews__profile--item">
                   <img
-                    src="images/review/IC_arrow-Right.svg"
-                    alt="Arrow Right Icon"
-                    class="arrow__right"
+                    src="images/review/Profile-Image.svg"
+                    alt="Profile-Image"
+                    class="profile__image"
                   />
-                </button>
-              </div>
-              <div class="reviews__profile--item">
-                <img
-                  src="images/review/Profile-Image.svg"
-                  alt="Profile-Image"
-                  class="profile__image"
-                />
-                <div class="reviews__profile--rating">
-                  <h5 class="profile__title">Kende Attila</h5>
-                  <div class="rating__stars--items">
-                    <img
-                      src="images/review/Ic_24-Gold-Star.svg"
-                      alt="Gold Star Icon"
-                      class="gold__star--icon"
-                    />
-                    <img
-                      src="images/review/Ic_24-Gold-Star.svg"
-                      alt="Gold Star Icon"
-                      class="gold__star--icon"
-                    />
-                    <img
-                      src="images/review/Ic_24-Gold-Star.svg"
-                      alt="Gold Star Icon"
-                      class="gold__star--icon"
-                    />
-                    <img
-                      src="images/review/Ic_24-Gold-Star.svg"
-                      alt="Gold Star Icon"
-                      class="gold__star--icon"
-                    />
-                    <img
-                      src="images/review/Ic_24-White-Star.svg"
-                      alt="White Star Icon"
-                      class="white__star--icon"
-                    />
+                  <div class="reviews__profile--rating">
+                    <h5 class="profile__title">Kende Attila</h5>
+                    <div class="rating__stars--items">
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-White-Star.svg"
+                        alt="White Star Icon"
+                        class="white__star--icon"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="slider__block">
+                <div class="reviews__block-logo">
+                  <img
+                    src="images/review/Trustpilot-Logo.svg"
+                    alt="Trustpilot-Logo"
+                    class="trustpilot__logo"
+                  />
+                </div>
+                <div class="reviews__block--subtitle">
+                  <p class="reviews__subtitle">
+                    Roof repairs can be a real headache, but HomePro makes it
+                    easy! Their roofing team turned my leaky roof into a
+                    stockade. With their craftsmanship and the best materials,
+                    my house is now ready to weather any storm.
+                  </p>
+                </div>
+                <div class="reviews__profile--item">
+                  <img
+                    src="images/review/Profile-Image.svg"
+                    alt="Profile-Image"
+                    class="profile__image"
+                  />
+                  <div class="reviews__profile--rating">
+                    <h5 class="profile__title">Kende Attila</h5>
+                    <div class="rating__stars--items">
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-White-Star.svg"
+                        alt="White Star Icon"
+                        class="white__star--icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__block">
+                <div class="reviews__block-logo">
+                  <img
+                    src="images/review/Trustpilot-Logo.svg"
+                    alt="Trustpilot-Logo"
+                    class="trustpilot__logo"
+                  />
+                </div>
+                <div class="reviews__block--subtitle">
+                  <p class="reviews__subtitle">
+                    Roof repairs can be a real headache, but HomePro makes it
+                    easy! Their roofing team turned my leaky roof into a
+                    stockade. With their craftsmanship and the best materials,
+                    my house is now ready to weather any storm.
+                  </p>
+                </div>
+                <div class="reviews__profile--item">
+                  <img
+                    src="images/review/Profile-Image.svg"
+                    alt="Profile-Image"
+                    class="profile__image"
+                  />
+                  <div class="reviews__profile--rating">
+                    <h5 class="profile__title">Kende Attila</h5>
+                    <div class="rating__stars--items">
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-Gold-Star.svg"
+                        alt="Gold Star Icon"
+                        class="gold__star--icon"
+                      />
+                      <img
+                        src="images/review/Ic_24-White-Star.svg"
+                        alt="White Star Icon"
+                        class="white__star--icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="menu__arrow--left" type="button">
+                <img
+                  src="images/review/IC_arrow-Left.svg"
+                  alt="Arrow Left Icon"
+                  class="arrow__left"
+                />
+              </button>
+              <button class="menu__arrow-right" type="button">
+                <img
+                  src="images/review/IC_arrow-Right.svg"
+                  alt="Arrow Right Icon"
+                  class="arrow__right"
+                />
+              </button>
             </article>
             <div class="reviews__menu--swipers">
               <div class="blue__swipper"></div>
-              <div class="gray__swippers">
-                <span class="gray-swipper"></span>
-                <span class="gray-swipper"></span>
-                <span class="gray-swipper"></span>
-              </div>
+              <div class="gray__swippers"></div>
             </div>
           </div>
         </div>
@@ -837,7 +950,7 @@
               <div class="faq__menu--item">
                 <div class="faq__menu--title">
                   <h5 class="menu__card--title">What is HomePro?</h5>
-                  <button>
+                  <button class="arrow__button_open">
                     <img
                       src="images/faq/IC_chevron-top.svg"
                       alt="Arrow Top Icon"
@@ -845,7 +958,7 @@
                     />
                   </button>
                 </div>
-                <p class="faq__menu--subtitle">
+                <p class="faq__menu--subtitle active">
                   HomePro is a home care platform that connects homeowners with
                   professional service providers offering a wide range of home
                   services, including repairs, maintenance, cleaning, and more.
@@ -856,7 +969,7 @@
                   <h5 class="menu__card--title">
                     Are the service providers on HomePro reliable and qualified?
                   </h5>
-                  <button>
+                  <button class="arrow__button_open">
                     <img
                       src="images/faq/IC_chevron-down.svg"
                       alt="Arrow Down Icon"
@@ -869,7 +982,7 @@
                     What if I have an issue or complaint about a service
                     provider?
                   </h5>
-                  <button>
+                  <button class="arrow__button_open">
                     <img
                       src="images/faq/IC_chevron-down.svg"
                       alt="Arrow Down Icon"
@@ -881,7 +994,7 @@
                   <h5 class="menu__card--title">
                     How are payments handled on HomePro?
                   </h5>
-                  <button type="button">
+                  <button type="button" class="arrow__button_open">
                     <img
                       src="images/faq/IC_chevron-down.svg"
                       alt="Arrow Down Icon"
@@ -893,7 +1006,7 @@
                   <h5 class="menu__card--title">
                     How do I leave a review for a service provider?
                   </h5>
-                  <button type="button">
+                  <button type="button" class="arrow__button_open">
                     <img
                       src="images/faq/IC_chevron-down.svg"
                       alt="Arrow Down Icon"
@@ -967,6 +1080,11 @@
         </div>
       </section>
     </main>
+
+    <!-- Main End -->
+
+    <!-- Footer Start -->
+
     <footer class="footer">
       <div class="footer__container">
         <div class="footer__content">
@@ -1077,5 +1195,7 @@
         <span class="footer__copy">©2023 HomePro . All rights reserved</span>
       </div>
     </footer>
+
+    <!-- Footer End -->
   </body>
 </html>

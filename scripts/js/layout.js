@@ -14,9 +14,16 @@ const legalMenuItems = document.querySelectorAll(
   '.legal__menu > .legal__menu--item'
 );
 
-headerBurgerButton.style.background = 'transparent';
-const nav = document.querySelector('.nav');
+document.addEventListener('DOMContentLoaded', function () {
+  const burgerMenu = document.querySelector('.header__burger-menu');
+  const nav = document.querySelector('.header__nav');
+  const closeButton = document.querySelector('.header__nav--close');
 
-headerBurgerButton.addEventListener('click', () => {
-  nav.classList.toggle('open');
+  burgerMenu.addEventListener('click', function () {
+    nav.classList.add('active');
+  });
+
+  closeButton.addEventListener('click', function () {
+    nav.classList.remove('active');
+  });
 });

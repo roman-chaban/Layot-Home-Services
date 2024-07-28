@@ -7,9 +7,12 @@
 @import 'media';
 @import 'animations';
 @import './burger.scss';
+@import './layout.scss';
+@import './slider.scss';
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
 }
 
 .hero {
@@ -162,99 +165,10 @@ body {
     top: 2px;
   }
 }
+
 @media screen and (width > 500px) {
   .mobile__decorations--items {
     display: none;
-  }
-}
-
-.professional {
-  & .main__container {
-    @include wrapperContainer;
-  }
-  & .professional__content {
-    padding-top: 232px;
-    display: flex;
-    justify-content: space-between;
-  }
-  & .professional__information {
-    display: flex;
-    flex-direction: column;
-    gap: 56px;
-    & .professional__titles--item {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      & .professional__title {
-        max-width: 557px;
-        color: $primary-black;
-        line-height: 123.077%;
-        font: {
-          size: $--primary-third;
-          weight: 700;
-        }
-      }
-      & .professional__subtitle {
-        color: $primary-gray-2;
-        line-height: 155.556%;
-        font: {
-          size: $--primary-frist;
-        }
-        max-width: 557px;
-      }
-    }
-    & .professional__information--list {
-      display: flex;
-      align-items: center;
-      gap: 57px;
-      & .info--list {
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-        & .info__list--items {
-          display: flex;
-          align-items: center;
-          gap: 12px;
-          & .info__list-title {
-            color: $primary-dark-blue-2;
-            line-height: 140%;
-            font : {
-              size: $--primary-secondary;
-              weight: 700;
-            }
-          }
-        }
-      }
-    }
-    & .professional__info--banner {
-      & .banner__info--item {
-        max-width: 450px;
-        background: $primary-sky-blue;
-        padding: 12px 32px;
-        border-radius: 24px;
-        & .banner--info {
-          color: $primary-white;
-          line-height: 155.556%;
-          font-size: $--primary-frist;
-        }
-        & .banner--info-bold {
-          color: $primary-white;
-          line-height: 155.556%;
-          font : {
-            size: $--primary-secondary;
-            weight: 600;
-          }
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-  & .professional__intro-image {
-    position: relative;
-    bottom: 80px;
-    & .professional__image {
-      width: 100%;
-    }
   }
 }
 
@@ -593,8 +507,9 @@ body {
       width: 100%;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;  
       padding-top: 40px;
+
       & .reviews__subtitle {
         max-width: 728px;
         text-align: center;
@@ -852,6 +767,7 @@ body {
         }
       }
       & .faq__menu--subtitle {
+        display: none;
         font-size: $--primary-six;
         color: $primary-light-green;
         font-family: 'Be Vietnam Pro' !important;
