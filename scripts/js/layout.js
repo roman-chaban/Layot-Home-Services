@@ -3,7 +3,7 @@
 const headerMenuItems = document.querySelector('.nav__menu');
 const heroTitleItem = document.querySelector('.hero__title');
 const subscribeButton = document.querySelector('.subscribe');
-let homeProLogo = document.querySelectorAll('.homepro__logo');
+let homeProLogo = document.querySelector('.header__logo');
 let viewButtonItem = document.querySelector('.view');
 let professionalImage = document.querySelector('.professional__image');
 const headerBurgerButton = document.querySelector('.header__burger');
@@ -27,3 +27,13 @@ document.addEventListener('DOMContentLoaded', function () {
     nav.classList.remove('active');
   });
 });
+
+const handleUpPage = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+};
+
+homeProLogo.addEventListener('click', handleUpPage);
+

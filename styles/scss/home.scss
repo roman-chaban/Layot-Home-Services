@@ -19,7 +19,7 @@ body {
   background: $primary-background;
   & .hero__container {
     & .hero__content {
-      padding: 80px 16px 0px 16px;
+      padding: 85px 16px 0px 16px;
       display: grid;
       grid-template-columns: repeat(1, auto 1fr auto);
       & .hero__left--item {
@@ -507,7 +507,7 @@ body {
       width: 100%;
       display: flex;
       align-items: center;
-      justify-content: center;  
+      justify-content: center;
       padding-top: 40px;
 
       & .reviews__subtitle {

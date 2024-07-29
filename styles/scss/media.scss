@@ -341,7 +341,7 @@
     top: 4px;
   }
   .header .header__container {
-    padding: 24px 65px;
+    padding: 24px 35px;
   }
   .professional .professional__information {
     gap: 35px;
@@ -492,7 +492,7 @@
     font-size: $--primary-five;
   }
   .header .header__container {
-    padding: 15px 65px;
+    padding: 15px 35px;
   }
   .hero
     .hero__container
@@ -538,9 +538,6 @@
     .hero__content--item
     .hero__content--block {
     padding-top: 50px;
-  }
-  .hero .hero__container .hero__content {
-    padding-top: 65px;
   }
   .professional
     .professional__information
@@ -1127,6 +1124,7 @@
 }
 
 @media screen and (width <= 760px) {
+  
   .hero .hero__container .hero__content .hero__right--item .hero__right--image,
   .hero .hero__container .hero__content .hero__left--item .hero__left--image {
     display: none;
@@ -1167,6 +1165,9 @@
   .hero__right--image,
   .hero__left--image {
     display: none;
+  }
+  .works {
+    padding: 0 30px; 
   }
 }
 

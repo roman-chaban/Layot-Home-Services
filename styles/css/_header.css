@@ -1,5 +1,22 @@
 .header {
   background: #142257;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header__container {
   display: -webkit-box;
@@ -21,6 +38,7 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 13px;
+  cursor: pointer;
 }
 .header__logo--title {
   font-weight: 700;
@@ -41,6 +59,24 @@
   color: #fff;
   font-weight: 700;
   line-height: 133%;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.header__nav--menu-item_link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 0;
+  height: 2.5px;
+  border-radius: 2px;
+  opacity: 0;
+  background-color: #fff;
+  -webkit-transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out, left 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out, left 0.3s ease-in-out;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 .header__nav--close {
   display: none;
@@ -49,8 +85,8 @@
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 20px;
-  right: 65px;
+  top: 25px;
+  right: 40px;
   cursor: pointer;
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
@@ -130,8 +166,8 @@
 }
 .header .burger__logo {
   position: absolute;
-  top: 20px;
-  left: 65px;
+  top: 25px;
+  left: 45px;
 }
 @media (max-width: 1000px) {
   .header .header__burger-menu {
@@ -231,6 +267,11 @@
     color: #fff;
     font-size: 24px;
   }
+}
+
+.header__nav--menu-item_link:hover::after {
+  width: 100%;
+  opacity: 1;
 }
 
 .burger__services {

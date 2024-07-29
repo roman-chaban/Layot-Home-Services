@@ -278,7 +278,7 @@
     top: 4px;
   }
   .header .header__container {
-    padding: 24px 65px;
+    padding: 24px 35px;
   }
   .professional .professional__information {
     gap: 35px;
@@ -380,7 +380,7 @@
     font-size: 1rem;
   }
   .header .header__container {
-    padding: 15px 65px;
+    padding: 15px 35px;
   }
   .hero .hero__container .hero__content .hero__content--item .hero__content--block .hero__content--list .hero__list--item {
     font-size: 1.125rem;
@@ -410,9 +410,6 @@
   }
   .hero .hero__container .hero__content .hero__content--item .hero__content--block {
     padding-top: 50px;
-  }
-  .hero .hero__container .hero__content {
-    padding-top: 65px;
   }
   .professional .professional__information .professional__titles--item .professional__title {
     font-size: 2.375rem;
@@ -927,6 +924,9 @@
   .hero__right--image,
   .hero__left--image {
     display: none;
+  }
+  .works {
+    padding: 0 30px;
   }
 }
 @media screen and (width <= 600px) {
